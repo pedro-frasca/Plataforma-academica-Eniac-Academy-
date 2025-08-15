@@ -1,0 +1,28 @@
+ graph TD
+                A[Usuário/Navegador] -- Porta 8090 --> B((nginx));
+
+                subgraph "Serviços Docker (docker-compose)"
+                    B((nginx)) -- "HTTP (Porta 80)" --> C((web));
+                    C((web)) -- "Conexão DB (Host: db, Porta: 3306)" --> D((db));
+                end
+
+                subgraph "Rede: backend_network"
+                    B --- RedeInterna;
+                    C --- RedeInterna;
+                    D --- RedeInterna;
+                end
+                RedeInterna --> C;
+
+                E((Volume: static_volume1)) --- B;
+                E --- C;
+                F((Volume: static_volume2)) --- B;
+                F --- C;
+                G((Volume: mysql_data)) --- D;
+
+                style A fill:#f9f,stroke:#333,stroke-width:2px;
+                style B fill:#bbf,stroke:#333,stroke-width:2px;
+                style C fill:#bbf,stroke:#333,stroke-width:2px;
+                style D fill:#bbf,stroke:#333,stroke-width:2px;
+                style E fill:#ccf,stroke:#333,stroke-width:2px;
+                style F fill:#ccf,stroke:#333,stroke-width:2px;
+                style G fill:#ccf,stroke:#333,stroke-width:2px;

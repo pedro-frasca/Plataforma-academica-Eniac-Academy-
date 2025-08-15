@@ -1,0 +1,234 @@
+
+erDiagram
+    User ||--|| UserProfile : "has (1:1)"
+    User ||--o{ Projeto : "is_gestor_of (1:N)"
+    User ||--o{ Projeto : "is_integrante_of (1:N)"
+    User ||--o{ ProgressoUsuarioEbook : "tracks_progress_in (1:N)"
+    User ||--o{ ProgressoUsuarioSubCapitulo : "tracks_subchapter_progress_in (1:N)"
+    User ||--o{ Topico : "authors (1:N)"
+    User ||--o{ Resposta : "authors (1:N)"
+    User ||--o{ KanbanComment : "authors (1:N)"
+
+    Paleta_Core ||--o{ Imagens_Beneficios_Core : "defines_color_for (1:N)"
+    Paleta_Core ||--o{ Imagens_Ideal_Para_Core : "defines_color_for (1:N)"
+    Paleta_Core ||--o{ Estacoe : "uses_color_from (1:N)"
+
+    Estacoe ||--o{ Projeto : "belongs_to (1:N)"
+    Estacoe ||--o{ Imagens_equipe : "has (1:N)"
+    Estacoe ||--o{ UserProfile : "has_area_of (1:N)"
+
+    Projeto ||--o{ Sprint : "contains (1:N)"
+    Projeto ||--|| Kanban : "has_one_kanban (1:1)"
+
+    Ebook ||--o{ Capitulo : "contains (1:N)"
+    Ebook ||--|| Forum : "has_one_forum (1:1)"
+
+    Capitulo ||--o{ SubCapitulo : "contains (1:N)"
+    Capitulo ||--o{ ProgressoUsuarioEbook : "is_tracked_by (1:N)"
+
+    SubCapitulo ||--o{ ProgressoUsuarioSubCapitulo : "is_tracked_by (1:N)"
+
+    Forum ||--o{ Topico : "contains (1:N)"
+
+    Topico ||--o{ Resposta : "has (1:N)"
+
+    Kanban ||--o{ KanbanColumn : "contains (1:N)"
+
+    KanbanColumn ||--o{ KanbanCard : "contains (1:N)"
+
+    KanbanCard ||--o{ KanbanComment : "has (1:N)"
+
+
+    User {
+        BigInt id PK
+        VARCHAR username UK
+        VARCHAR email UK
+        VARCHAR password
+        BOOLEAN is_staff
+        BOOLEAN is_active
+        TIMESTAMP date_joined
+    }
+
+    UserProfile {
+        BigInt id PK
+        BigInt user_id FK "References User (1:1)"
+        VARCHAR avatar
+        INT ebook_completion_percentage
+        BigInt area_id FK "References Estacoe (1:0..1)"
+        VARCHAR two_factor_code
+        DATETIME two_factor_expiry
+        BOOLEAN pending_pmo
+    }
+
+    Paleta_Core {
+        BigInt id PK
+        VARCHAR(255) nome
+        VARCHAR(7) cor_principal
+        VARCHAR(7) cor_detalhes
+    }
+
+    Imagens_Beneficios_Core {
+        BigInt id PK
+        BigInt cor_id FK "References Paleta_Core (N:1)"
+        VARCHAR(100) alt
+        VARCHAR imagem
+    }
+
+    Imagens_Ideal_Para_Core {
+        BigInt id PK
+        BigInt cor_id FK "References Paleta_Core (N:1)"
+        VARCHAR(100) alt
+        VARCHAR imagem
+    }
+
+    Estacoe {
+        BigInt id PK
+        VARCHAR(255) nome
+        VARCHAR logo
+        VARCHAR icon
+        BigInt cor_id FK "References Paleta_Core (N:1)"
+        VARCHAR(2000) descricao_estacao
+        TEXT texto_funcionamento
+        VARCHAR(1000) Servico_1
+        VARCHAR(1000) Servico_2
+        VARCHAR(1000) Servico_3
+        TEXT responsabilidade
+        VARCHAR(1000) Beneficios_1
+        VARCHAR(1000) Beneficios_2
+        VARCHAR(1000) Beneficios_3
+        VARCHAR(1000) Ideal_para_1
+        VARCHAR(1000) Ideal_para_2
+        VARCHAR(1000) Ideal_para_3
+        VARCHAR(1000) Competencia_1
+        VARCHAR(1000) Competencia_2
+        VARCHAR(1000) Competencia_3
+    }
+
+    Imagens_equipe {
+        BigInt id PK
+        BigInt estacao_id FK "References Estacoe (N:1)"
+        VARCHAR imagem
+        VARCHAR(100) alt
+    }
+
+    Projeto {
+        BigInt id PK
+        BigInt estacao_projeto_id FK "References Estacoe (N:1, optional)"
+        VARCHAR(255) nome_projeto
+        INT numero_desafio UK
+        VARCHAR(200) Proprietario
+        BigInt gestor_id FK "References User (N:1)"
+        DATE start_date
+        VARCHAR(100) fase
+        DATE end_date
+        VARCHAR(255) status
+        INT Progresso
+    }
+
+    Sprint {
+        BigInt id PK
+        BigInt Projeto_id FK "References Projeto (N:1)"
+        INT numero_sprint
+        VARCHAR(255) name
+        TEXT description
+        DATE start_date
+        DATE end_date
+        VARCHAR(255) status
+    }
+
+    Ebook {
+        BigInt id PK
+        VARCHAR(200) titulo UK
+        TEXT descricao
+    }
+
+    Capitulo {
+        BigInt id PK
+        BigInt ebook_id FK "References Ebook (N:1)"
+        VARCHAR(255) titulo
+        TEXT conteudo
+        INT ordem
+    }
+
+    SubCapitulo {
+        BigInt id PK
+        BigInt capitulo_id FK "References Capitulo (N:1)"
+        VARCHAR(255) titulo
+        VARCHAR(20) tipo
+        TEXT conteudo
+        VARCHAR arquivo
+        VARCHAR url_video
+        INT ordem
+    }
+
+    ProgressoUsuarioEbook {
+        BigInt id PK
+        BigInt aluno_id FK "References User (N:1)"
+        BigInt capitulo_id FK "References Capitulo (N:1)"
+        BOOLEAN concluido
+        DATETIME data_conclusao
+    }
+
+    ProgressoUsuarioSubCapitulo {
+        BigInt id PK
+        BigInt aluno_id FK "References User (N:1)"
+        BigInt subcapitulo_id FK "References SubCapitulo (N:1)"
+        BOOLEAN concluido
+        DATETIME data_conclusao
+    }
+
+    Forum {
+        BigInt id PK
+        BigInt ebook_id FK "References Ebook (1:1)"
+        VARCHAR(200) titulo
+    }
+
+    Topico {
+        BigInt id PK
+        BigInt forum_id FK "References Forum (N:1)"
+        VARCHAR(255) titulo
+        TEXT conteudo
+        BigInt autor_id FK "References User (N:1)"
+        DATETIME criado_em
+        DATETIME atualizado_em
+    }
+
+    Resposta {
+        BigInt id PK
+        BigInt topico_id FK "References Topico (N:1)"
+        TEXT conteudo
+        BigInt autor_id FK "References User (N:1)"
+        DATETIME criado_em
+    }
+
+    Kanban {
+        BigInt id PK
+        BigInt projeto_id FK "References Projeto (1:1)"
+        VARCHAR(255) nome
+    }
+
+    KanbanColumn {
+        BigInt id PK
+        BigInt kanban_id FK "References Kanban (N:1)"
+        VARCHAR(100) nome
+        INT ordem
+    }
+
+    KanbanCard {
+        BigInt id PK
+        BigInt coluna_id FK "References KanbanColumn (N:1)"
+        VARCHAR(255) titulo
+        TEXT descricao
+        VARCHAR(10) prioridade
+        DATETIME criado_em
+        DATETIME atualizado_em
+    }
+
+    KanbanComment {
+        BigInt id PK
+        BigInt card_id FK "References KanbanCard (N:1)"
+        BigInt autor_id FK "References User (N:1)"
+        TEXT texto
+        DATETIME criado_em
+        DATETIME atualizado_em
+    }

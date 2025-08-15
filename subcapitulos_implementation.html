@@ -1,0 +1,247 @@
+<!-- 
+INSTRUÇÕES PARA IMPLEMENTAÇÃO DOS SUBCAPÍTULOS
+
+Este arquivo contém o código completo para implementar os subcapítulos no template index_ebooks.html.
+Siga as instruções abaixo para implementar corretamente os subcapítulos.
+
+PASSO 1: Adicione o código HTML dos subcapítulos na área de conteúdo principal
+Localize a div com a classe "content-body" no arquivo index_ebooks.html (linha 61).
+Após o parágrafo que exibe o conteúdo do capítulo (linha 63), adicione o seguinte código:
+-->
+
+<!-- Exibição dos subcapítulos -->
+{% if subcapitulos %}
+    <div class="subcapitulos-container">
+        <h2>Subcapítulos</h2>
+        
+        <!-- Abas para filtrar por tipo -->
+        <div class="subcapitulo-tabs">
+            <button class="tab-button active" data-tipo="todos">Todos</button>
+            <button class="tab-button" data-tipo="texto">Textos</button>
+            <button class="tab-button" data-tipo="pdf">PDFs</button>
+            <button class="tab-button" data-tipo="video">Vídeos</button>
+            <button class="tab-button" data-tipo="exercicio">Exercícios</button>
+        </div>
+        
+        <ul class="subcapitulos-list">
+            {% for subcapitulo in subcapitulos %}
+                <li class="subcapitulo-item {% if subcapitulo.id in subcapitulos_concluidos_ids %}concluido{% endif %}" data-tipo="{{ subcapitulo.tipo }}">
+                    <div class="subcapitulo-header">
+                        <h3>
+                            {% if subcapitulo.id in subcapitulos_concluidos_ids %}
+                                <i class="fas fa-check-circle"></i>
+                            {% else %}
+                                {% if subcapitulo.tipo == 'pdf' %}
+                                    <i class="fas fa-file-pdf"></i>
+                                {% elif subcapitulo.tipo == 'video' %}
+                                    <i class="fas fa-video"></i>
+                                {% elif subcapitulo.tipo == 'exercicio' %}
+                                    <i class="fas fa-tasks"></i>
+                                {% else %}
+                                    <i class="fas fa-file-alt"></i>
+                                {% endif %}
+                            {% endif %}
+                            {{ subcapitulo.titulo }} <span class="subcapitulo-tipo">({{ subcapitulo.get_tipo_display }})</span>
+                        </h3>
+                    </div>
+                    <div class="subcapitulo-content">
+                        {% if subcapitulo.tipo == 'texto' %}
+                            <div class="texto-content">
+                                {{ subcapitulo.conteudo|linebreaks }}
+                            </div>
+                        {% elif subcapitulo.tipo == 'pdf' %}
+                            <div class="pdf-content">
+                                {% if subcapitulo.arquivo %}
+                                    <a href="{{ subcapitulo.arquivo.url }}" target="_blank" class="btn-download">
+                                        <i class="fas fa-download"></i> Baixar PDF
+                                    </a>
+                                    <embed src="{{ subcapitulo.arquivo.url }}" type="application/pdf" width="100%" height="500px" />
+                                {% else %}
+                                    <p>Arquivo PDF não disponível.</p>
+                                {% endif %}
+                            </div>
+                        {% elif subcapitulo.tipo == 'video' %}
+                            <div class="video-content">
+                                {% if subcapitulo.url_video %}
+                                    <div class="video-container">
+                                        <iframe width="100%" height="400" src="{{ subcapitulo.url_video }}" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                {% else %}
+                                    <p>Vídeo não disponível.</p>
+                                {% endif %}
+                            </div>
+                        {% elif subcapitulo.tipo == 'exercicio' %}
+                            <div class="exercicio-content">
+                                {{ subcapitulo.conteudo|linebreaks }}
+                            </div>
+                        {% endif %}
+                        
+                        <form action="{% url 'Dashboard:marcar_subcapitulo_concluido' subcapitulo_id=subcapitulo.id %}" method="post" class="subcapitulo-form">
+                            {% csrf_token %}
+                            <button type="submit" class="btn-subcapitulo">
+                                {% if subcapitulo.id in subcapitulos_concluidos_ids %}
+                                    Já concluído
+                                {% else %}
+                                    Marcar como concluído
+                                {% endif %}
+                            </button>
+                        </form>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
+<!-- 
+PASSO 2: Adicione o JavaScript para a funcionalidade das abas
+Localize a tag </body> no arquivo index_ebooks.html (linha 79).
+Antes dessa tag, adicione o seguinte código JavaScript:
+-->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Seleciona todos os botões de abas e itens de subcapítulos
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const subcapituloItems = document.querySelectorAll('.subcapitulo-item');
+        
+        // Adiciona evento de clique para cada botão de aba
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove a classe 'active' de todos os botões
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Adiciona a classe 'active' ao botão clicado
+                this.classList.add('active');
+                
+                // Obtém o tipo de subcapítulo a ser filtrado
+                const tipoFiltro = this.getAttribute('data-tipo');
+                
+                // Filtra os subcapítulos com base no tipo selecionado
+                subcapituloItems.forEach(item => {
+                    if (tipoFiltro === 'todos' || item.getAttribute('data-tipo') === tipoFiltro) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>
+
+<!-- 
+PASSO 3: Adicione os estilos CSS para os subcapítulos
+Abra o arquivo /static/style/pages/dashboard/index/index_ebook.css e adicione o seguinte código CSS no final do arquivo:
+-->
+
+/* Estilos para os subcapítulos */
+.subcapitulos-container {
+    margin-top: 30px;
+    border-top: 1px solid var(--bg-light);
+    padding-top: 20px;
+}
+
+/* Estilos para as abas */
+.subcapitulo-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--bg-light);
+}
+
+.tab-button {
+    background-color: var(--bg-medium);
+    border: 1px solid var(--bg-light);
+    border-bottom: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--text-secondary);
+}
+
+.tab-button:hover {
+    background-color: var(--active-item-bg);
+}
+
+.tab-button.active {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    border-color: var(--accent-color);
+}
+
+/* Estilos para a lista de subcapítulos */
+.subcapitulos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.subcapitulo-item {
+    margin-bottom: 20px;
+    border: 1px solid var(--bg-light);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.subcapitulo-item.concluido {
+    border-left: 4px solid var(--accent-color);
+}
+
+.subcapitulo-header {
+    background-color: var(--bg-medium);
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--bg-light);
+}
+
+.subcapitulo-header h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: var(--text-primary);
+}
+
+.subcapitulo-tipo {
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    font-weight: normal;
+}
+
+.subcapitulo-content {
+    padding: 15px;
+}
+
+.btn-subcapitulo {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,317 @@
+ Explicação do Diagrama e Componentes(docker):
+
+1. Usuário/Navegador: Representa o cliente que acessa sua aplicação.
+
+O usuário acessa a aplicação através da porta 8090 no seu host. Essa porta é mapeada para a porta 80 do contêiner nginx.
+
+2. nginx (Serviço Nginx):
+
+Este é o servidor web e reverse proxy.
+
+Imagens: nginx:latest.
+
+Portas: A porta 8090 do seu host é exposta e mapeada para a porta 80 do Nginx ("8090:80").
+
+Volumes: Ele compartilha static_volume1 e static_volume2 com o serviço web para servir arquivos estáticos (CSS, JS, imagens). Além disso, ele monta seu arquivo de configuração default.conf do host.
+
+Dependência: Depende do serviço web (garante que web suba antes de nginx).
+
+Rede: Conectado à backend_network.
+
+Função: Recebe as requisições do usuário, serve arquivos estáticos e encaminha as requisições dinâmicas para o serviço web (via a porta 8090 interna do web, conforme configurado no Nginx).
+
+3. web (Serviço da Aplicação Web Python):
+
+Este contêiner hospeda a aplicação em django, executada pelo Gunicorn.
+
+Construção: É construído a partir do seu Dockerfile.
+
+Volumes:
+
+.:/app: Monta o diretório atual do seu projeto no diretório /app dentro do contêiner, permitindo que as mudanças no código sejam refletidas sem reconstrução da imagem.
+
+static_volume1 e static_volume2: Compartilha volumes com o Nginx para arquivos estáticos/media.
+
+Portas Expostas: A porta 8090 é exposta (expose) dentro da rede Docker. Isso significa que outros contêineres na mesma rede podem acessá-la via o nome do serviço (web:8090), mas ela não é diretamente acessível de fora do Docker a menos que você a mapeie no nginx ou diretamente no docker-compose.yml.
+
+Variáveis de Ambiente: Define DEBUG=False e DB_HOST=db (esta última é crucial para o web encontrar o contêiner do banco de dados).
+
+Dependência: Depende do serviço db (garante que db suba antes de web).
+
+Rede: Conectado à backend_network.
+
+ CMD no Dockerfile: CMD ["gunicorn", "--bind", "0.0.0.0:8090", "AOEP.wsgi:application"] - Inicia o Gunicorn escutando na porta 8090 para servir sua aplicação.
+
+4. db (Serviço do Banco de Dados MySQL):
+
+Este contêiner hospeda sua instância do MySQL.
+
+Imagens: mysql:latest.
+
+Portas: A porta 3307 do seu host é mapeada para a porta 3306 do MySQL dentro do contêiner ("3307:3306"). Isso permite que você acesse o banco de dados diretamente de sua máquina local, se necessário, usando a porta 3307.
+
+Ambiente: Define as variáveis de ambiente necessárias para configurar o banco de dados (nome do banco, usuário, senha, senha root).
+
+Volume: mysql_data:/var/lib/mysql: Garante a persistência dos dados do banco de dados. Mesmo se o contêiner db for removido, os dados não serão perdidos.
+
+Rede: Conectado à backend_network.
+
+5. backend_network (Rede Interna):
+
+Esta é uma rede Docker customizada do tipo bridge.
+
+Todos os serviços (db, web, nginx) estão conectados a essa rede. Isso permite que eles se comuniquem uns com os outros usando os nomes dos serviços como nomes de host (por exemplo, o serviço web pode se conectar ao db usando DB_HOST=db).
+
+Volumes Persistentes:
+
+static_volume1 e static_volume2: Usados para armazenar arquivos estáticos e de mídia gerados pela sua aplicação, sendo compartilhados entre os contêineres web e nginx. O web gera e o nginx serve.
+
+mysql_data: Essencial para garantir que os dados do seu banco de dados MySQL não sejam perdidos se o contêiner do db for recriado.
+
+
+                        Documentação e diagrama ERD do Banco de dados MySQL
+
+1. User (do Django auth.models):
+
+ Descrição: Representa um usuário autenticado no sistema.
+ 
+ Campos Principais: id (PK), username (UK), email (UK), password.
+ 
+ Relacionamentos:
+ 
+ has (1:1) UserProfile: Um usuário tem um perfil de usuário, e um perfil pertence a um usuário.
+ 
+ is_gestor_of (1:N) Projeto: Um usuário pode ser o gestor de vários projetos.
+ 
+ is_integrante_of (1:N) Projeto: Um usuário pode ser integrante de vários projetos (relação Muitos-para-Muitos via tabela implícita).
+ 
+ tracks_progress_in (1:N) ProgressoUsuarioEbook/ProgressoUsuarioSubCapitulo: Um usuário pode ter progresso em muitos capítulos/subcapítulos.
+ 
+ authors (1:N) Topico/Resposta/KanbanComment: Um usuário pode ser autor de muitos tópicos, respostas e comentários em Kanban.
+
+2. UserProfile:
+
+    Descrição: Estende o modelo User com informações adicionais de perfil.
+
+    Campos Principais: id (PK), user_id (FK para User), avatar, ebook_completion_percentage, two_factor_code.
+
+    Relacionamentos:
+
+    References User (1:1): Uma referência direta ao modelo User.
+
+    has_area_of (1:0..1) Estacoe: Um perfil de usuário pode estar associado a zero ou uma estação.
+
+3. Paleta_Core:
+
+    Descrição: Define paletas de cores principais e de detalhes.
+
+    Campos Principais: id (PK), nome, cor_principal, cor_detalhes.
+
+    Relacionamentos:
+
+    defines_color_for (1:N) Imagens_Beneficios_Core / Imagens_Ideal_Para_Core: Uma paleta de cores pode ser usada por várias imagens de benefícios e "ideal para".
+
+    uses_color_from (1:N) Estacoe: Uma paleta pode ser utilizada por múltiplas estações.
+
+    Imagens_Beneficios_Core / Imagens_Ideal_Para_Core:
+
+    Descrição: Armazenam imagens relacionadas a benefícios e seções "ideal para", vinculadas a uma paleta de cores.
+
+    Campos Principais: id (PK), cor_id (FK para Paleta_Core), alt, imagem.
+
+    Relacionamentos:
+
+    References Paleta_Core (N:1): Muitas imagens se referem a uma única paleta de cores.
+
+
+4. Estacoe:
+
+    Descrição: Representa uma estação ou área específica do projeto/organização.
+
+    Campos Principais: id (PK), nome, logo, icon, cor_id (FK para Paleta_Core), descricao_estacao, texto_funcionamento, Servico_1/2/3, Beneficios_1/2/3, Ideal_para_1/2/3, Competencia_1/2/3.
+
+    Relacionamentos:
+
+    belongs_to (1:N) Projeto: Uma estação pode ter múltiplos projetos associados.
+
+    has (1:N) Imagens_equipe: Uma estação pode ter várias imagens de equipe.
+
+    uses_color_from (N:1) Paleta_Core: Cada estação usa uma paleta de cores.
+
+5. Imagens_equipe:
+
+    Descrição: Armazena imagens de equipe associadas a uma estação.
+
+    Campos Principais: id (PK), estacao_id (FK para Estacoe), imagem, alt.
+
+    Relacionamentos:
+
+    References Estacoe (N:1): Muitas imagens de equipe pertencem a uma estação.
+
+  
+6. Projeto:
+
+    Descrição: Define um projeto no sistema.
+
+    Campos Principais: id (PK, único), nome_projeto, numero_desafio (UK), Proprietario, gestor_id (FK para User), start_date, fase, end_date, status, Progresso.
+
+    Relacionamentos:
+
+    belongs_to (N:1) Estacoe: Cada projeto pertence a uma estação (opcional).
+
+    is_gestor_of (N:1) User: Cada projeto tem um gestor.
+
+    is_integrante_of (N:1) User: Um projeto tem muitos integrantes (representando a relação Many-to-Many).
+
+    contains (1:N) Sprint: Um projeto pode ter várias sprints.
+
+    has_one_kanban (1:1) Kanban: Um projeto tem um quadro Kanban associado.
+
+7. Sprint:
+
+    Descrição: Representa uma sprint dentro de um projeto.
+
+    Campos Principais: id (PK, único), Projeto_id (FK para Projeto), numero_sprint, name, description, start_date, end_date, status.
+
+    Relacionamentos:
+
+    References Projeto (N:1): Cada sprint pertence a um projeto.
+
+   
+8. Ebook:
+
+    Descrição: Define um e-book disponível na plataforma.
+
+    Campos Principais: id (PK), titulo (UK), descricao.
+
+    Relacionamentos:
+
+    contains (1:N) Capitulo: Um e-book contém vários capítulos.
+
+    has_one_forum (1:1) Forum: Um e-book tem um fórum dedicado.
+
+9. Capitulo:
+
+    Descrição: Representa um capítulo dentro de um e-book.
+
+    Campos Principais: id (PK), ebook_id (FK para Ebook), titulo, conteudo, ordem.
+
+    Relacionamentos:
+
+    References Ebook (N:1): Cada capítulo pertence a um e-book.
+
+    contains (1:N) SubCapitulo: Um capítulo contém vários subcapítulos.
+
+    is_tracked_by (1:N) ProgressoUsuarioEbook: O progresso de um capítulo é rastreado por vários registros de progresso de usuário.
+
+10. SubCapitulo:
+
+    Descrição: Detalha subcapítulos dentro de um capítulo.
+
+    Campos Principais: id (PK), capitulo_id (FK para Capitulo), titulo, tipo, conteudo, arquivo, url_video, ordem.
+
+    Relacionamentos:
+
+    References Capitulo (N:1): Cada subcapítulo pertence a um capítulo.
+
+    is_tracked_by (1:N) ProgressoUsuarioSubCapitulo: O progresso de um subcapítulo é rastreado por vários registros de progresso de usuário.
+
+11. ProgressoUsuarioEbook / ProgressoUsuarioSubCapitulo:
+
+    Descrição: Registram o progresso de um User em um Capitulo ou SubCapitulo.
+
+    Campos Principais: id (PK), aluno_id (FK para User), capitulo_id (FK para Capitulo) / subcapitulo_id (FK para SubCapitulo), concluido, data_conclusao.
+
+    Relacionamentos:
+
+    References User (N:1): Cada registro de progresso pertence a um usuário.
+
+    References Capitulo (N:1) / References SubCapitulo (N:1): Cada registro de progresso refere-se a um capítulo/subcapítulo específico.
+
+   
+12. Forum:
+
+    Descrição: Representa um fórum de discussão associado a um e-book.
+
+    Campos Principais: id (PK), ebook_id (FK para Ebook), titulo.
+
+    Relacionamentos:
+
+    References Ebook (1:1): Cada fórum está diretamente ligado a um e-book.
+
+    contains (1:N) Topico: Um fórum pode ter muitos tópicos.
+
+13. Topico:
+
+    Descrição: Um tópico de discussão dentro de um fórum.
+
+    Campos Principais: id (PK), forum_id (FK para Forum), titulo, conteudo, autor_id (FK para User), criado_em, atualizado_em.
+
+    Relacionamentos:
+
+    References Forum (N:1): Cada tópico pertence a um fórum.
+
+    has (1:N) Resposta: Um tópico pode ter muitas respostas.
+
+    References User (N:1): Cada tópico é criado por um autor.
+
+14. Resposta:
+
+    Descrição: Uma resposta a um tópico no fórum.
+
+    Campos Principais: id (PK), topico_id (FK para Topico), conteudo, autor_id (FK para User), criado_em.
+
+    Relacionamentos:
+
+    References Topico (N:1): Cada resposta pertence a um tópico.
+
+    References User (N:1): Cada resposta é criada por um autor.
+
+   
+15. Kanban:
+
+    Descrição: Representa um quadro Kanban associado a um projeto.
+
+    Campos Principais: id (PK), projeto_id (FK para Projeto), nome.
+
+    Relacionamentos:
+
+    References Projeto (1:1): Cada Kanban está diretamente ligado a um projeto.
+
+    contains (1:N) KanbanColumn: Um Kanban contém várias colunas.
+
+16. KanbanColumn:
+
+    Descrição: Uma coluna dentro de um quadro Kanban.
+
+    Campos Principais: id (PK), kanban_id (FK para Kanban), nome, ordem.
+
+    Relacionamentos:
+
+    References Kanban (N:1): Cada coluna pertence a um Kanban.
+
+    contains (1:N) KanbanCard: Uma coluna contém vários cards.
+
+17. KanbanCard:
+
+    Descrição: Um card (tarefa) dentro de uma coluna Kanban.
+
+    Campos Principais: id (PK), coluna_id (FK para KanbanColumn), titulo, descricao, prioridade, criado_em, atualizado_em.
+
+    Relacionamentos:
+
+    References KanbanColumn (N:1): Cada card pertence a uma coluna Kanban.
+
+    has (1:N) KanbanComment: Um card pode ter muitos comentários.
+
+18. KanbanComment:
+
+    Descrição: Um comentário em um card Kanban.
+
+    Campos Principais: id (PK), card_id (FK para KanbanCard), autor_id (FK para User), texto, criado_em, atualizado_em.
+
+    Relacionamentos:
+
+    References KanbanCard (N:1): Cada comentário pertence a um card.
+
+    References User (N:1): Cada comentário é feito por um autor.

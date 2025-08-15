@@ -1,0 +1,3546 @@
+﻿[
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": 11,
+    "email": "pedroo@teste.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 2,
+  "fields": {
+    "user": 16,
+    "email": "allanmaiagondim.rng@gmail.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-23T23:44:44.721Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-11-23T23:45:19.722Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-11-23T23:45:41.084Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2135465",
+    "object_repr": "Projeto djfhlakjsdh, id do projeto (2135465)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-11-24T14:10:38.397Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2135465",
+    "object_repr": "Projeto djfhlakjsdh, id do projeto (2135465)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Fase\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-11-24T14:10:57.890Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2135465",
+    "object_repr": "Projeto djfhlakjsdh, id do projeto (2135465)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-11-24T14:12:04.435Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2135465",
+    "object_repr": "Projeto djfhlakjsdh, id do projeto (2135465)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Progresso\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-11-24T16:44:12.492Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "PMO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-11-25T23:07:46.851Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "gigio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-11-25T23:48:50.484Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "gigio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-11-25T23:51:46.967Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "gigio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-11-25T23:52:55.300Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "gigio",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-11-25T23:53:27.960Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "teste",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-11-25T23:54:12.299Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "teste",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-11-26T00:35:26.066Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "chuteira",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-11-26T00:35:26.066Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "sapato",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-11-26T00:38:40.975Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Giovani",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-11-26T11:31:47.349Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "roxo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cor principal\", \"Cor detalhes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-11-26T11:33:08.254Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-11-26T11:34:15.789Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-11-26T11:34:51.466Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-11-26T11:36:04.278Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-11-26T11:36:33.057Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-11-26T11:37:10.888Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-11-27T19:24:10.966Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "213123123123123123",
+    "object_repr": "Projeto Garrafa, id do projeto (213123123123123123)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-12-04T01:01:24.025Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-12-04T01:09:07.232Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG (Environmental, Social, and Governance)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-12-04T01:48:15.885Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "beneficio da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-12-04T01:48:29.494Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "beneficio da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-12-04T01:48:41.892Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "beneficio da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-12-04T01:50:45.725Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Imagem de Texto Ideal para da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-12-04T01:51:04.003Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "5",
+    "object_repr": "Imagem de Texto Ideal para da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-12-04T01:51:15.942Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Imagem de Texto Ideal para da cor Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-12-04T16:57:53.444Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG (Environmental, Social, and Governance)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-12-05T12:24:50.541Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-12-06T00:15:43.111Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "carvalho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-12-06T00:15:56.381Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "carvalho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-12-06T00:17:15.313Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "carvalho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-12-06T00:32:26.103Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\", \"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-12-06T00:43:46.812Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-12-06T00:48:22.926Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "beneficio da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-12-06T00:48:41.271Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "beneficio da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-12-06T00:48:54.819Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cloud",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-12-06T00:48:59.800Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "9",
+    "object_repr": "beneficio da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-12-06T00:50:33.737Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Imagem de Texto Ideal para da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-12-06T00:50:46.279Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Imagem de Texto Ideal para da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-12-06T00:51:00.461Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Imagem de Texto Ideal para da cor Azul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-12-06T00:51:10.296Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cloud",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Responsabilidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-12-06T00:53:25.008Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cloud",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-12-06T01:56:27.791Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "carvalho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-12-06T02:15:04.983Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "carvalho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-12-06T02:21:56.126Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "LowCode",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-12-06T02:22:37.862Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Low Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-12-06T02:22:59.752Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Low Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Competencia 1\", \"Competencia 2\", \"Competencia 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-12-06T02:46:06.894Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "No Code",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-12-06T02:46:40.108Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "No Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Servico 1\", \"Servico 2\", \"Servico 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-12-06T02:56:45.703Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Dev",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-12-06T03:00:38.510Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Mkt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-12-06T03:03:44.546Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Sdr",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-12-06T03:54:42.527Z",
+    "user": 6,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Web",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-12-06T12:02:41.993Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-12-06T12:02:41.993Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-12-06T12:02:41.993Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-12-06T12:04:18.320Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "10",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-12-06T12:04:36.080Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "11",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-12-06T12:04:52.550Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "12",
+    "object_repr": "beneficio da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-12-06T12:07:37.499Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-12-06T12:07:37.499Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "2",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-12-06T12:07:37.499Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-12-06T12:08:18.537Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-12-06T12:08:35.385Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "11",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-12-06T12:08:51.612Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "12",
+    "object_repr": "Imagem de Texto Ideal para da cor roxo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-12-06T14:37:55.445Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Web",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-12-06T14:39:13.596Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Sdr",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-12-06T14:43:12.397Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Mkt",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-12-06T14:47:15.680Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Dev",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-12-06T14:49:36.170Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "No Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-12-06T14:51:05.703Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Low Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-12-06T14:54:45.277Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao estacao\", \"Texto funcionamento\", \"Servico 1\", \"Servico 2\", \"Servico 3\", \"Responsabilidade\", \"Beneficios 1\", \"Beneficios 2\", \"Beneficios 3\", \"Ideal para 1\", \"Ideal para 2\", \"Ideal para 3\", \"Competencia 1\", \"Competencia 2\", \"Competencia 3\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-12-06T17:21:14.798Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Alves",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-12-06T17:21:44.746Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Alves",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-12-06T17:25:32.888Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "2135465",
+    "object_repr": "Projeto Caneta, id do projeto (2135465)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome projeto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-12-06T18:58:07.514Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Mauro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-12-06T19:00:07.787Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Mauro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-12-06T19:28:16.083Z",
+    "user": 8,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-12-06T19:32:00.620Z",
+    "user": 8,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Web",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-12-06T19:32:21.888Z",
+    "user": 8,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Sdr",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-12-06T19:34:50.992Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Dev",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-12-06T19:48:50.595Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Mauro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-12-06T19:49:01.463Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Mauro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-12-06T19:50:22.976Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-12-06T22:37:51.193Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-12-06T22:40:22.475Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Sdr",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-12-06T22:41:19.610Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Mkt",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-12-06T22:41:46.383Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Dev",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-12-06T22:42:05.601Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "No Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-12-06T22:42:42.367Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Low Code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-12-06T22:43:16.268Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cloud",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-12-06T22:44:53.935Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "ESG",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-12-06T22:45:30.073Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-12-06T22:49:28.318Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Pmo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-12-06T22:52:35.337Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Bpo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-12-06T22:55:19.878Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": "RH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-12-06T22:58:12.940Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": "Qualidade",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2024-12-06T23:50:01.012Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-07-10T23:14:29.446Z",
+    "user": 14,
+    "content_type": 19,
+    "object_id": "1",
+    "object_repr": "Ebook object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Front End - Cap. 1: Html\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Front End - Cap. 2: CSS\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Front End - Cap. 3: JS\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-07-11T02:36:50.913Z",
+    "user": 14,
+    "content_type": 23,
+    "object_id": "1",
+    "object_repr": "Html - Texto: <a>",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-07-11T02:38:54.175Z",
+    "user": 14,
+    "content_type": 23,
+    "object_id": "2",
+    "object_repr": "CSS - PDF: css sc",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-07-11T02:39:06.429Z",
+    "user": 14,
+    "content_type": 23,
+    "object_id": "1",
+    "object_repr": "Html - Texto: <a>",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-07-11T02:51:54.823Z",
+    "user": 14,
+    "content_type": 23,
+    "object_id": "2",
+    "object_repr": "CSS - PDF: css sc",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ordem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-07-11T14:06:48.631Z",
+    "user": 14,
+    "content_type": 23,
+    "object_id": "3",
+    "object_repr": "JS - V├¡deo: video.mp4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-07-11T14:16:50.918Z",
+    "user": 14,
+    "content_type": 19,
+    "object_id": "2",
+    "object_repr": "Ebook object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 1: Java\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 2: POO\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 4: C\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 5: C#\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 6: C++\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 7: .NET\"}}, {\"added\": {\"name\": \"capitulo\", \"object\": \"Back-end - Cap. 3: Spring\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-07-11T17:38:51.972Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Integrante HDC",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-07-11T17:39:22.491Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Integrante GET",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-07-11T17:39:24.192Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Integrante GET",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-07-11T17:39:43.774Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Integrante ESG",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-07-11T17:40:22.896Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Integrante Cloud",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-07-11T17:40:34.500Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Integrante LCD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-07-11T17:40:50.161Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Integrante NCD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-07-11T17:41:26.616Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Integrante MKT",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-07-11T17:41:41.471Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Integrante SDR",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-07-11T17:43:01.695Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Integrante WEB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-07-11T17:43:42.525Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Integrante BPO",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-07-11T17:43:58.511Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Integrante RH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-07-11T17:44:19.350Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Integrante Qualidade",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-07-11T17:47:06.425Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Integrante GRH",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-07-11T17:51:56.001Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Integrante GQA",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-07-13T01:13:11.547Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Integrante CLD",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-07-13T01:17:01.438Z",
+    "user": 13,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Padr├úo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-07-18T17:56:28.596Z",
+    "user": 14,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Icon\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-07-18T17:59:33.268Z",
+    "user": 14,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "GET",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Icon\"]}}]"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "PMO",
+    "permissions": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Integrante HDC",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 3,
+  "fields": {
+    "name": "Integrante GET",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 4,
+  "fields": {
+    "name": "Integrante ESG",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 5,
+  "fields": {
+    "name": "Integrante CLD",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 6,
+  "fields": {
+    "name": "Integrante LCD",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 7,
+  "fields": {
+    "name": "Integrante NCD",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 8,
+  "fields": {
+    "name": "Integrante MKT",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 9,
+  "fields": {
+    "name": "Integrante SDR",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 10,
+  "fields": {
+    "name": "Integrante WEB",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 11,
+  "fields": {
+    "name": "Integrante BPO",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 12,
+  "fields": {
+    "name": "Integrante GRH",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 13,
+  "fields": {
+    "name": "Integrante GQA",
+    "permissions": [
+      60
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 14,
+  "fields": {
+    "name": "Padr├úo",
+    "permissions": [
+      60,
+      84,
+      76,
+      80,
+      96
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$BASiHE6AoP4BXVr168GHk1$n4FFMVDow7M5jKIRK8xGICyNF+d19PuBqp5Xo+GU7DM=",
+    "last_login": "2024-12-06T17:31:19.406Z",
+    "is_superuser": true,
+    "username": "gigio",
+    "first_name": "Giovani",
+    "last_name": "Dantas Braconi",
+    "email": "giovanidbraconi@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-23T23:44:05Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$X0erG1qmT1YKkyel10ukfS$NqR0JXo8JazpE2z8GVkE7cjRYQAybXWYx80B36mLYBQ=",
+    "last_login": "2024-11-25T23:55:03.816Z",
+    "is_superuser": false,
+    "username": "teste",
+    "first_name": "teste",
+    "last_name": "Dantas Braconi Grande",
+    "email": "teste@teste.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-11-25T23:52:27Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$eqwITnRmN0oMfWz7iLcHa7$BWHAY6N+T0SzlqNUs+ZTjawpbDRfceoITOqR8ecMUL4=",
+    "last_login": "2024-12-06T00:19:29Z",
+    "is_superuser": true,
+    "username": "carvalho",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-12-06T00:15:42Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$LqYDSrYb2aGQd6PCbBAt14$xqTygmMUPkLLUSyGn/0mBx6wLLyC85AHC+Ce8JDdgOc=",
+    "last_login": "2024-12-06T17:22:32.542Z",
+    "is_superuser": false,
+    "username": "Alves",
+    "first_name": "",
+    "last_name": "",
+    "email": "112212021@eniac.edu.br",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-12-06T17:21:14Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$MFIZjFUyaqSC75Gz1UUUZo$fY8VOpjX+iKP76PcRsB3xrHZSl8dSc5cEIgpejL92Po=",
+    "last_login": "2024-12-06T19:01:21Z",
+    "is_superuser": false,
+    "username": "Mauro",
+    "first_name": "Mauro",
+    "last_name": "Claro",
+    "email": "mauro.roberto@eniac.edu.br",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-12-06T18:58:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Pkvp0dcpe493lIo6ajTc3B$w4xaWdM1X6CIHbJaWe0kBUdWwUqBAuZeyhF9Qx89mrc=",
+    "last_login": "2025-07-07T17:37:20.201Z",
+    "is_superuser": true,
+    "username": "giovani",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-07T17:28:56.297Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$RDx8fuSLU5Y45FMvQIz4rt$42isdpxMO5/xxEjx8kfZyGHY5mZZKkXTkOfZAzsvnrg=",
+    "last_login": "2025-07-14T17:54:23.899Z",
+    "is_superuser": true,
+    "username": "pedro",
+    "first_name": "",
+    "last_name": "",
+    "email": "pedro@teste.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-07T18:53:55.606Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$GSpm4Z5enQFmH6ZbWzjCQ1$kO2S2A5GyKEgh3BWV46C/xNuwJ3hhEfk5kjXd1eypes=",
+    "last_login": "2025-07-08T13:05:45.452Z",
+    "is_superuser": false,
+    "username": "Pedrofrasca",
+    "first_name": "",
+    "last_name": "",
+    "email": "pedroo@teste.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-08T13:05:15.524Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$lKj7fDmMI5txs5WDiYU4BB$ex7A2cw4Ckjq7qb9iG2l+ay+mpjcarHIZKXQyFPN3fU=",
+    "last_login": "2025-07-13T16:23:39.810Z",
+    "is_superuser": true,
+    "username": "fernando",
+    "first_name": "",
+    "last_name": "",
+    "email": "fernando@bolado.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-08T20:38:11.149Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$n4kRfPJ7kKqwBXmUacrAs4$jU0gSQBZputNPy+07fKoVqFeori9qcxsxc+3fcPbmPc=",
+    "last_login": "2025-07-17T13:43:39.227Z",
+    "is_superuser": true,
+    "username": "allan",
+    "first_name": "",
+    "last_name": "",
+    "email": "allanmaiagondim.amg@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-08T23:00:17.302Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$cvgC3r0yF6KZcPwqsgvUQE$1jos25JzBzF41RJ7ap85UijD5c8aR/vRx5rs/GyfJXw=",
+    "last_login": "2025-07-18T18:01:34.147Z",
+    "is_superuser": true,
+    "username": "jovic",
+    "first_name": "",
+    "last_name": "",
+    "email": "j@j.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-10T23:11:32.788Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$xjAh4feaqkVnTLdfVLVPZR$al0opIrafJPjEw672Wxq6QRwQz+etWDGoc0pZWwGlh4=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "j",
+    "first_name": "",
+    "last_name": "",
+    "email": "j@j.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-07-11T13:35:19.742Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$9FW4mEumTyDLhDRKqdXcdm$3inBJ0ql0SCGCC+cxuXqbrWY1hrHf96BCrADVWlILQY=",
+    "last_login": "2025-07-13T01:20:51.787Z",
+    "is_superuser": false,
+    "username": "UEBA",
+    "first_name": "",
+    "last_name": "",
+    "email": "allanmaiagondim.rng@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-07-13T01:19:02.675Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "04qcwu4lry5dwwy0uwr4fvx29huqjthb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-yR9Kes5grXfXOIAcKU4qxN0hUgpo38y8l8iwrS1vg5c8kTgLLU6_WwF8cN8B3aHfZolzX5epyF2RBx3yOhM_L4f7d9BgtG-dtKomOsaqHUZWCYNxHL0jChB9LEyG2VlEC-QiYVJgq_E2hJooBfH-AO9-OFI:1tEzng:3SFtMSQ_pH3yXfla1aZ-669Lox3FrP463YBgJvCzOrI",
+    "expire_date": "2024-12-07T23:44:28.441Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "20djsx0bx3b8khpwtqb4yobqff197edw",
+  "fields": {
+    "session_data": ".eJxVkM1uwyAQhN9lzxbiL2B8avoaVWWtAduoMUQGq62ivHtx6otvo93Zb0fzALQ2bbH0uJXZxxIslpBiv_gyJ5eh-3jAv4YO7pjzd1odNIAFOqYvnDLDBSeCMymobMAvGG7VircbxqpxStGFheAyvU37jti0wPOzgdfHfst-7cMOZwJOwwHtl4_uYNUxOaKSl-dYZ3I9BX8_rk6oGfNcOa2WLY5MC8akthaNdNYJyUfONEX0VpuxHdFclKdGKVRMttypYeBUGRR6h2af896P_7mH9bd2wKuV0ucfqwFtXQ:1uZIEi:dlCmiCYdStxz21RhNDK96xZT7-BOxsBrlDq6Wtc7Htw",
+    "expire_date": "2025-07-23T00:00:32.359Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "45g2xem4v2yd2z3h9oehww2xrji2wu1r",
+  "fields": {
+    "session_data": ".eJxVkMFuhDAMRP_FZxTFARLg1O1vVBUySYCokKxIUFut9t8btly4jezx82geQFqH3aee9jRbn5ym5ILvV5vmYCJ0Hw_419DBnWL8DpuBAihBh6oWWKOQnAkUjcAC7EpuyU5aFvJZ0xS8cSujdXqbjh3TYYXnZwGvh_0e7da7g40lXIYD6S_rzcnKY3YmZS_PuY7sdsn9fl5dUDPFOXMaVTU0oioRK6U1tZXRpqzEKFBxIqtVOzYjtbW0vJWSJFaNMHIYBJctleqARhvjUY_9ubvtN1cgspXz5x9fFG0q:1uZqaC:QWYYnFC_VY024Q3RtdpedQH6q_7csRc3_389SM-9GdE",
+    "expire_date": "2025-07-24T12:41:00.226Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4t6dk0sfpvmqa8g4vsy5dknbiar1xpsc",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BRBCfuv2NpjEjoJIqbATTNpv99-LWF99uZu6cubkPQGPiHnKPe55dyN5g9jH0q8tztAm6jwf8a-jgjil9x81CBZihY6rhvGmYpkSquhVcVeBW9Eux4rJgKBqnGKxfCa7T23TsiIkrPD8reH3s9-S23h9wVsNlOKD5csGerDImZ1Ty8pzrRG6X4O_n1QU1Y5oLp1WixZGpmjGhjEEtrLG14CNniiI6o_TYjqgb6aiWEiUTLbdyGDiVGmt1QJNL6ejH_dz99ls64MVK6fMPxAFtdg:1uaHcU:pyI2kOLcpCcPe-hiC5O9E_NKP5ocqOEDHwobcA2bMnc",
+    "expire_date": "2025-07-25T17:33:10.685Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6bfc1w602tv4hgthsjglymwinxo7n6dr",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxSREPLDqdvXqCpkkgBRIVmRoLZa7bs3bLlwG9njz6N5ABoT95B73PPsQvYGs4-hX12eo03QfTzgX0MHd0zpO24WKsAMHZUtY1xwRYkUjPOWVeBW9Eux4rJgKBqnGKxfCa7T23TsiIkrPD8reH3s9-S23h9w2sBlOKD5csGerDImZ1Ty8pzrRG6X4O_n1QU1Y5oLR0mucKSyoZRLY1Bza2zD2ciorBGdkXpUI-pWuFoLgYJyxawYBlYLjY08oMmldPTjfu5--y0dsGKt6-cfwCVtcg:1uaFM1:9-4m0cMV9lKhoH-kFOKDA5o9HCsoCfUcfIX_iYTVUI0",
+    "expire_date": "2025-07-25T15:08:01.781Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6setfm6udjax3uduwimw11oeu5p3f60a",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BRECfuv2NpjEjoJIqbATTNpv99-LWF98mc--cuTMPQGPiHnKPe55dyN5g9jH0q8tztAm6jwf819DBHVP6jpuFCjBDx1TDKVOSayI0a6VsKnAr-qVYcVkwlBqnGKxfCa7T23RoxMQVnp8VvDb2e3Jb7w84q-HSHNB8uWBPVmmTMyp5eU45kdsl-Ps5dUHNmObC0UpoHJmqGRPKGGyFNbYWfORMUURnVDvqEdtGOlquQcmE5lYOA6eyxVod0ORSOv7jfu5--y0_4MVK6fMPx-hteg:1uZHoq:UE-hR8ySGN51w68Yw9KS6c3kFhYg2lkq7fHCoiG_LC0",
+    "expire_date": "2025-07-22T23:33:48.526Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7h2o0easz7w9i1rdse9krd3i3zsr3qxl",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BVECfuv2NpjEjoJIKbATTNpv99-LWF98mc--cuTMPQK3jHvKAe15syE5jdjEM3uYlmgT9xwP-a-jhjil9x81ABZihZ7LllElacyJUS5VoK7Ae3VqsuK4YSo1zDMZ5gn5-mw-N6Ojh-VnBa-OwJ7sN7oCzGi7NEfWXDeZklTY5o5KX55QTuV2Cv59TF9SCaSkcJRuFE5M1Y43UGrvGaFM3fOLlCESrZTepCbtWWNoJgYI1ihsxjpyKDmt5QJNN6fiP_bm77bf8gBcrpc8_u8Ztbg:1uZHfE:CId3-RHAXNBy_GePbZFfkw9GIPqx5Oqd4cMAPFnPpsU",
+    "expire_date": "2025-07-22T23:23:52.729Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "98cypgs2y44lj5gd9iwxwhn6d78j98s9",
+  "fields": {
+    "session_data": ".eJxVkEtuhDAQRO_Sa2TZgD-wyuQaUYTaP7AC9ggbJdFo7h6YsGFX6up-XaoHoDFpi2XArUwulmCwhBSHxZUp2Qz9xwP-NfRwx5y_02qhAizQM8nrRnSCMyKlEJKJCtyCYd5XcZ4x7hrHFG1YyBrHt_HwiEkLPD8reH0ctuzWIRxwJuAy1Gi-XLQnax-TMyp57Zx2JrdL8Pfz6oKaME87R_LWMq-tVhw7qhpGPVMtR2e5xFYpQZnVxlLUvmm4Z9q3HfNe1A6ppJ08oNnlfPTjfu5h_d07qGknKH3-Afu3bhY:1ualOd:aoEoJ3S2rTSG4BE6diTygYeb-jkXQogbhnLJwVJJ6iY",
+    "expire_date": "2025-07-27T01:20:51.796Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9m32l6u3q7lyzw25fv4wyjn79071ahmm",
+  "fields": {
+    "session_data": ".eJxVkN1qwzAMhd9F1yHY9X-u1r3GKMFWVGKWxCV26Ebpu6_uchPQhThH-nTQAzxi2pbS-62MtJSIvsS09DOVMQ0Zuq8H_PfQwc3nfE_rAA34Ah03ijvjnFStFEJb2QDNPk51koY1pY9CuVCLaYbnpYH3jX7LtPax4jiHgxg8ftNSHT9NVW73cO17Zrdzez5E_dy3DqjR5_HF0Wxw7OrQnJjm9npCpTRpo19lMTCjUaBQgXGhmAtaMBmQCelIM0nWigrNlHP9CP3c4voLHXv-AewgZh4:1uZ813:9zmIzSlDo60SKWycm-d_jsmF2lN8KVFmXE_3rRdvxaE",
+    "expire_date": "2025-07-22T13:05:45.458Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aih2mdlcj2b0coep4id6zusuhyyvd03t",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BRECfuv2NpjEjoJIqbATTNpv99-LWF99uZu6cubkPQGPiHnKPe55dyN5g9jH0q8tztAm6jwf8a-jgjil9x81CBZihY6rhrFGN1IQ3VAmhK3Ar-qVYcVkwFI1TDNavBNfpbTp2xMQVnp8VvD72e3Jb7w84q-EyHNB8uWBPVhmTMyp5ec51IrdL8Pfz6oKaMc2Fo5XQODJVMyaUMdgKa2wt-MiZoojOqHbUI7aNdLSVEiUTmls5DJzKFmt1QJNL6ejH_dz99ls64MVK6fMPxxlteQ:1uZsDw:lMTO8oaCyZoTI33kN5YGVU7AzRBu2zqGoYnExy0odFs",
+    "expire_date": "2025-07-24T14:26:08.346Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bhh2c3gi94ogcoagovn71cjm89buap4f",
+  "fields": {
+    "session_data": ".eJxVkMFugzAQRP9lzwiB7WDDqe1vVBVa1kuwCnaETdIqyr83TrlwW83Mvh3tHZAobD71uKWJfXKEyQXfL5ymYCN0n3f4n6GDC8Z4C6uFAjBBV2spGlGpWpYnLY0-qQJ4QTc_o2cXruidHVak4N3bOeslhQUeXwW8rvVb5LV3GVzDQRuQvtlnA-c5y-XesnxldjuW74fOH_vWATVhnJ6ctq5GYRTTWCsyXLWkhWLTKGs1msYMbAWzkkQSrTKW2grlKBqp9djaVmdo5Bjza_jn4tZf6KrHH1wXa48:1tFtiX:Eb9bNaL24eqvhv7HMHjVpUOp05lcHJRjnVp_StckxP4",
+    "expire_date": "2024-12-10T11:26:53.629Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cjn44nqyt8pg00a1zs9dt2qwcqvf1223",
+  "fields": {
+    "session_data": ".eJxVkMFuhDAMRP_FZ4TikE0Ip25_o6qQSQJEXZIVCWqr1f57w5YLt5E9fh7NA8iYuIXc05ZnF7I3lH0M_eLyHG2C7uMB_xo6uFNK33G1UAFl6FBdOMNWY1OjEIgVuIX8rRjpdqNQNE0xWL_UtExv076rTVzg-VnB61-_Jbf2fkdjA6fhQObLBXuwyrg-gtYvz7FO9fUU-_24OqFmSnPhtEq0NKJqEIUyhrSwxjaCjxwVI3JG6bEdSV-kY1pKkihabuUwcCY1NWqHJpfS3o77ufv1tzTAi5Wx5x8YgGz8:1uZI9Z:l59A8axLyRr5nQTKyiiEoO-sMCxFUOeBr0UhPKia1ok",
+    "expire_date": "2025-07-22T23:55:13.184Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "du8wzv0f2yh7z8nzlp3t4bq8wxflftrb",
+  "fields": {
+    "session_data": ".eJxVkM1ugzAQhN9lz8jCfxg4NX2NKkIbey2cAo6wUVpFeffGKRduq5nZb0f7ALQ2bksecMsjLTlYzCEuw0x5jC5B__WA_xl6uGFK97g6qAAz9NxoIVTd6Zo1RrdSmQpoxjC9otePK7Nxhue5gjd72BKtQygYruAgXtB-01IcnKYis70Ue2d2O7HToeLnvnVAjZjGcqG-GKSGVNd6xb1rhZJSyYZri844RcJpLx16KbhXjXVOSP2SOusEtmQKNFFK5RP0cwvrL_T18w8_g2R4:1uaDuo:-8Iym7qbOJzc1NpwFLs7fxEqLA-l4a566plC4BYAELw",
+    "expire_date": "2025-07-25T13:35:50.702Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "egt3zgx2hfkqfhrccjgcdht98erbfvml",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllx_Kek5wzWeneNA8iR4qRC3B0ipYD2zcx7iQTbWtPWeUkTibOI4vS7ZcAHtx3QHdptlji3dZmy3BV50C6vM_Hzcrh_BxV6_dYWMKKLHMk5q9FrdKwoa6-tyUVn9MHZQB6CUYVUAMuchzIYb8Y4BiveH_DqN8Y:1uYpmK:HAI-cb_qs_EhhicyKxrkjWbvjHs8pAz380sLw-4dedA",
+    "expire_date": "2025-07-21T17:37:20.206Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "et5ypn3qr9on7av8jd4wj6atjobi8znb",
+  "fields": {
+    "session_data": ".eJxVkE1uhDAMhe_iNYpIAvlh1ek1qgqZJEBUSEYkqK1Gc_eGKRt2T_bz52c_AI2Je8g97nl2IXuD2cfQry7P0SboPh7wr6GDO6b0HTcLFWCGjsqWMVFrwYlQQnHRVuBW9Eux4rJgKBqnGKxfCa7T23T0iIkrPD8reG3s9-S23h9wyuFSHNB8uWBPVimTMyp5ec52IrdL8Pdz6oKaMc2Fo2SjcKSSU9pIY1A31ljesJFRWSM6I_WoRtStcOUogYI2ilkxDKwWGrk8oMmldPzH_dz99gtd_fwDQKBsTQ:1uaJ7b:7DBhQ03qQ-3wNc0kgnhqj0PObZx-UykOT2-jxeXC3R8",
+    "expire_date": "2025-07-25T19:09:23.721Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "exwo5usc5d7bfdxm73ektqyniifcf9b6",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZ4TIz5LAqe1rVBUyjlmiLsmKhP5ote_ezZYLN2tm_HnkGyBR3EIecMszh-wJs49hWDjP0SXo32_wP0MPV0zpO64OKsAMvTBK6vZ0amxthTKtkBXwgv7yiJ59_MLg3bgixeBfzkWvKS5w_6jgeW3YEq-DL2ABB21E-uRQDLxcilzvLetnZrdT_Xro_LZvHVAzpvnB6UQzSauZJqHJctORkZptq50zaFs7spPMWhEpdNo66hpUk2yVMVPnOlOgiVMqr-Gfq19_oW_uf11oa5A:1tFFQ4:uc5VSPyZBM1CemUY9DiRDYxY2EI6JcBPtBj6oje4iuw",
+    "expire_date": "2024-12-08T16:25:08.867Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fij4km3vqkba8wlx96h2q4yh8ikm4mv5",
+  "fields": {
+    "session_data": ".eJxVkMFuwyAQRP9lzxYCTMD41PQ3qshaA7ZRbYgMVlpF-ffi1BffRruzb0fzBDQmbiF3uOXJhewNZh9Dt7g8RZug_XrCv4YW7pjSI64WKsAMLVMXTpnSTBAllOSyAregn4sT5xlD0TjGYP1CcBk_xn1HTFzgdavg_bDbkls7v7NZDadhj-bbBXuwypgcScnbc6wTuZ5yfx5XJ9SEaSqcRokGB6ZqxoQyBrWwxtaCD5wpiuiM0kMzoL5IR7WUKJlouJV9z6nUWKsdmlxKez3u5-7X31IBL1ZKX392CG1B:1uZHtS:0HVEvBtH5EQzg7mUs4qZck7S6aEDYJ5bJeXcNxLNE8E",
+    "expire_date": "2025-07-22T23:38:34.784Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g52rl1637u6uldg37r3fh0sl5iql2f4c",
+  "fields": {
+    "session_data": ".eJxVkMFuhDAMRP_FZxQlTkwop7a_UVXIJEZEZWFFgtpqtf9e2O6FmzUzfh75BhzCss2l462MMpcUuKRl7i5SxiVmaD9u8D9DC1fO-XtZI1TABVrjrSVNnlCRrWtNrgK5cJr2qDGIBjWaV5kTByVxU_0K988KHqe6LcvapYPq4aT1HL5kPgyepkNWz4rqkXnaWb2dCr8_t06okfO4c5roNTXOOba1D8bq-EJOa09kh96zdogRGydk6iH2NCCi1Xt9ChIpBj6gWXI-_iI_17T-Qqvvf5VkZo8:1tJc2C:vKm18DQxCok2QzA5O6rdRsXM3GhWaJK3mFelsWl7zCM",
+    "expire_date": "2024-12-20T17:22:32.546Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gi2o2wr745mt3sxzwisqt061zeltxwgm",
+  "fields": {
+    "session_data": ".eJxVkM1ugzAQhN9lzwjhP2w4NX2NKkIbey2cAo6wUVpFeffGKRduq5nZb0f7ALQ2bksecMsjLTlYzCEuw0x5jC5B__WA_xl6uGFK97g6qAAz9EwrzkzHmqbWplVSVEAzhumVvH5caxtneJ4reKOHLdE6hEJhEg7iBe03LcXBaSpyvXeq35ndTvXp0PBz3zqgRkxjudBcNFJLsjNeMu8Ml0JI0TJl0WkniTvlhUMvOPOytc5xoV5SZx1HQ7pAE6VUHkE_t7D-Qt88_wD0x2RA:1ua0QW:Cj2QNQ1RLPTGLKmGVKnG-3yPO03pLR3FlXov3RU96yY",
+    "expire_date": "2025-07-24T23:11:40.811Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gpyuo7kudyx6stx6bjza6tbuli46raoq",
+  "fields": {
+    "session_data": ".eJxVjU0OwiAQhe_C2jQCU6Du7EXIdGYIxIYmlq6Md7c1Xejyfe_vpSJuLcdtlWcsrG5Kg7r8wgnpIfVwcJ4P3CHRstXWfTOnvXb3XUlthbCVpY5n628q45qPh-vkUZzAEBLoxMGAtWCd7gnZM4jhPlnGZI1O4IjZ2H5HA7HBIF69P-cSPQ0:1ucpOo:_QR0kijEkPtakSo7AS7gqaED0XsYz25ruF91nkvciGY",
+    "expire_date": "2025-08-01T18:01:34.174Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gvyixbyemr7pqzjsigzubkp80w1o92x6",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxQl4Pxxavsa1QplEyOiAlmRoG612ndvs-XCzZoZfx75Ac77tK9lcHuZaC3RuxLTOixUphQy9J8P-J-hh5vL-TttARpwBXqhZSs0V7ZjrbJcS2yAFhfnGqWwpbdCuRDzaYHnpYHXjWHPtA2x4gSHk3h1_ovW6rh5rjI7yrFX5rAzez9V_Ti2TqjJ5emPw801WEJLotOtQ4vSSBRKdmRGGVrvjfZCa0NovNLIFaLCLnRqFHIkbSo0U871I3S_xe0Hev78BbkOZig:1uZvdd:wFWxrC0RPCeTrrs4hieH1hUu8s9T0oEACZnUd6rGiwQ",
+    "expire_date": "2025-07-24T18:04:53.296Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h5jzj1ahirjgisev5ew7ik91ka1p8o18",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxQl5BdObV-jWqFsYkRUICsc1K1W--5ttly4WTPjzyM_wIeQ97UMfi8TriUFX1JehwXLlCNB__mA_xl6uHmi77xFaMAX6IXVrRbKcs66lksnG8DFp7kmMW75rSAVZCEv8Lw08Dox7ITbkCpNcDiJVx--cK2On-cqs6Mbe2UOm9j7qenHsXVCTZ6mPw5319ih6lBI23rVKe20EkZLdKOObQjOBmGtQ-WCsYobpYySUZpR6BGtq1BCovoQvN_S9gM9f_4CZDBl5w:1ubN88:H0SMC3perILDjYwG83zSQCOsO6Ng_Gmbl-GRRObs2b0",
+    "expire_date": "2025-07-28T17:38:20.942Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i0yberj0jpp94tdfkme13yuevseylpq0",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZ4SSEPLDqdvXqCpkkgBRIVmRoLZa7bs3bLlwG9njz6N5ABoT95B73PPsQvYGs4-hX12eo03QfTzgX0MHd0zpO24WKsAMHZUtoy1VhNdCU6l4BW5FvxQnLguGonGKwfq1xnV6m45dbeIKz88KXg_7Pbmt9webNnAZDmi-XLAnq4zrM2n98pzrVN8uud_PqwtqxjQXjpJc4UhlQymXxqDm1tiGs5FRSRCdkXpUI-pWOKKFQEG5YlYMAyNCYyMPaHIpHfW4n7vffksFrFgJef4BdfhtQQ:1uZqiy:9G5wN0oDzpndL7VLig1vNo3qCWJMFokCpFsoqtHpYeU",
+    "expire_date": "2025-07-24T12:50:04.729Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j2vlqo1is2c1j93r2yca5zwx9djgnch4",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BVBCfuv2NpjEjoJIKbATTNpv99-LWF99u5t45czMPQK3jHvKAe15syE5jdjEM3uYlmgT9xwP-NfRwx5S-42agAszQM9lyobpaKNIqSouuwHp0a4niumIoGucYjPME_fw2Hx7R0cPzs4LXxWFPdhvcAWc1XIYj6i8bzMkqY3JWJa_MaSdyuxR_P7cuqAXTUjidbDqcmKwZa6TWqBqjTd3wiTNJEa2WauomVK2wVAmBgjUdN2IcORUKa3lAk03p-I_9ubvtt_yAlyilzz_RZm2D:1uc8uX:t-xsdH8en7ynzcbJWqzBCOcn4QR4zaPkc8cJdASFG7Y",
+    "expire_date": "2025-07-30T20:39:29.654Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m6je6jmno0i52s0z2mz0lpaewpsbewb1",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BRBCfuv2NpjEjoJIqbATTNpv99-LWF99uZu6cubkPQGPiHnKPe55dyN5g9jH0q8tztAm6jwf8a-jgjil9x81CBZihY6rhrBFKaqJqQZUQFbgV_VKsuCwYisYpButXguv0Nh07YuIKz88KXh_7Pbmt9wec1XAZDmi-XLAnq4zJGZW8POc6kdsl-Pt5dUHNmObCaZVocWSqZkwoY1ALa2wt-MiZoojOKD22I-pGOqqlRMlEy60cBk6lxlod0ORSOvpxP3e__ZYOeLFS-vwDxi5teA:1uZrUn:FK9tNLAaErZbG9BZqISVI2V6RAYXfmIgjtR_OgTKk0w",
+    "expire_date": "2025-07-24T13:39:29.787Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mktzrkv6i3azea7jugo7wpb0ldewagnq",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0BFFCfuv2NpjEjoJIKbATTNpv99-LWF99uZu6cubkPQK3jHvKAe15syE5jdjEM3uYlmgT9xwP-NfRwx5S-42agAszQMyU4F4IJRZTiLRW8AuvRrcWK64qhaJxjMM4T9PPbfOyIjh6enxW8Pg57stvgDjir4TIcUX_ZYE5WGZMzKnl5znUit0vw9_PqglowLYXTqqbFiamasUZpjV1jtKkbPnGmKKLVqpvaCTshLe2kRMmalhs5jpzKDmt1QJNN6ejH_tzd9ls64MVK6fMPwSFtcw:1uaHbx:Gy4YEk0Da0SFwgXIZrzReQffWQ_lsPx4TNgV2PEgC6w",
+    "expire_date": "2025-07-25T17:32:37.795Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ogd6oqnpjmk71qse83hgtfzrmvw95rkf",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxSRBPLDqdvXqCpkkgBRSbIiQW212ncvbLlwG82MP1t-ABqTtlh63MrsYvEGi0-xD67MyWboPh7wr6GDO-b8nVYLFWCBjsqWsZbrWhPNFFdMV-AC-mWv4rJg3DVOKVofCIbpbToyYlKA52cFr439lt3a-wNOOVzMAc2Xi_Zk7TY5TyWvzhlncrsc_n5OXVAz5nnnKNkoHKnklDbSGNSNNZY3bGRU1ojOSD2qEXUrXK2FQEEbxawYBlYLjVwe0OxyPv7jfu5-_YWufv4BQZdsTg:1uaHHp:EvnuMLGTEfWWMcicAAwmfQCBIwKvpnM9-skbzw1daN4",
+    "expire_date": "2025-07-25T17:11:49.957Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ojz1yoj83hmcslk5yql5x9gvt8jhwizl",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxQlAfLDqdvXqCpkkgBRIVmRoLZa7bs3bLlwG9njz6N5ABoT95B73PPsQvYGs4-hX12eo03QfTzgX0MHd0zpO24WKsAMHZMtp1orJoignLdMVeBW9Eux4rJgKBqnGKxfCa7T23TsiIkrPD8reH3s9-S23h9wVsNlOKD5csGerDImZ1Ty8pzrRG6X4O_n1QU1Y5oLR8lG4chkzVgjjUHdWGPrho-cSYrojNSjGlG3wlEtBArWKG7FMHAqNNbygCaX0tGP-7n77bd0UBoQlD7_AMJDbXQ:1uZdCS:ivPRn1wfzcTDmAdDtGH9jCU2n_paveNlk_cQ2tXJdBM",
+    "expire_date": "2025-07-23T22:23:36.645Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qgu3c2728rxvpx5ftb9t1oia8wblblxk",
+  "fields": {
+    "session_data": ".eJxVUNtugzAM_Rc_I5QYcoGndb8xVcgkrkCDpCJB3VT13wcdL7xZ5-ZjP4Gci2vIHa154JBHR3mMoZs5D9EnaL-e8D9DC3dK6REXDwVQhlYahTVWVjalFdJghQXwTOO0SW-8BAo-fvRxIh9LF2d4XQt47-nWxEs37pES4QT25L457AxN0w6XR8HyrTnoVF5OdT8P1ylqoDRsOaKx3mgjZaVrjUYJTxIVGi2Eb8iwVTU6VKRNw56dkGys9krUN6P6qqc9NHFK-1f45z4uv9vlKJrN__oDyHdo2Q:1uazUJ:qPyU_UPWcC0vskDK1bAwXSNKkCnLD1keHlEhmeYXQS4",
+    "expire_date": "2025-07-27T16:23:39.826Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qy9cwmvz8kiqfyzhgggrdji2485ga51x",
+  "fields": {
+    "session_data": ".eJxVjkkOwyAQBP_COUIeIAPkmLvfgIbNdhawvJyi_D22ZCnJtau71C_maF16t85pckNkFwaSnX5DT-Geyk7ijUpXeahlmQbP9wo_6MzbGtPjenT_BD3N_bY2WhnKoCWA0iGQVTFEqUQWoBuiFLTNJpM9Y2osIiEoIyJ6Lxq0JPUmHTf3UDo3Puv3MOD7A-JeQJo:1uamYo:4DDJ4py-cGW6HhXwfgkwTH1cUfm88NXhxJWkvyk8ycw",
+    "expire_date": "2025-07-27T02:35:26.708Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rfcnx18z3d1p1lrnt7x7e6g70n4sfkcw",
+  "fields": {
+    "session_data": ".eJxVkEtuhDAQRO_Sa2T5A_6wyuQaUYQa24AVsEfYKIlGc_fAhA27UlX161Y_AK1NWywdbmXysQSLJaTYLb5MyWVoPx7wr6GFO-b8nVYHFWCBlqmGq8ZoZginTAtVgV8wzHsT5xnjrnFM0YWF4DK-jUdGbFrg-VnBa2G3Zb924WAzARezR_vloztZu03OS8mrc8aZ3C53v59TF9SEedo5WtUaB6YEY7WyFk3trBM1HzhTFNFbZQY9oGmkp0ZKlKzW3Mm-51QaFOqAZp_z8R7_cw_rL7T0-QfxOmwV:1ucOtf:H-PDPhcn9UlN3hfIdwVp2GKbETh8_0slUHPz_b44_pU",
+    "expire_date": "2025-07-31T13:43:39.241Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rjpo6qtgvhg55qwzzt0pon9cejt66ixl",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxQlAfLDqdvXqCpkkgBRIVmRoLZa7bs3bLlwG9njz6N5ABoT95B73PPsQvYGs4-hX12eo03QfTzgX0MHd0zpO24WKsAMHZMtp0pQKYnWNWtVBW5FvxQnLguGonGKwfqV4Dq9TceOmLjC87OC18N-T27r_cFmNVyGA5ovF-zJKmNyJiUvz7lO5HbJ_X5eXVAzprlwlGwUjkzWjDXSGNSNNbZu-MiZpIjOSD2qEXUrHNVCoGCN4lYMA6dCYy0PaHIpHfW4n7vffksFvFgpff4Bfx1tSg:1uZZcs:3iDgGTosc8SihSx5KyhQnuxGXHv5jZ30-o4oxgQJhx8",
+    "expire_date": "2025-07-23T18:34:38.023Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sqx1j8zwb2odsik95kjk46dkgmochlya",
+  "fields": {
+    "session_data": ".eJxVkMFugzAQRP9lz8gyIcZrTk1_o4rQ2l6EVcCRbZRWUf69IeXCbTUz-3a0DyDn4rqUntYy8lKCoxLi0s9cxugzdF8P-J-hgxvlfI_JQwVUoKt106i6brEWRqE5o6mAZwrTKzrTmqJI0XIq8YOXQE6wX4VN8LxW8D7Xr5lTHzYywkGz5L552Qyapk0We03xzux2FpdD6c9964AaKY8vjsdGklZ0ll6id0hGaddKayW10p8UcaMtDmhQem28carlk0RykrwZ9LBBM-e8_YZ_biH9Qieff53ca6k:1tJdZp:WNkH0RhV5fwOHbAsQsF7fNTNt5anbIXJCM_Xuvr-vUo",
+    "expire_date": "2024-12-20T19:01:21.971Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tfjo0le7l7pn82kvrj763wabablryuyh",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxQR8s-p7WtUK5RNjIgKZIWDutVq373Nlgs3a2b8eeQH-BDyvpbB72XCtaTgS8rrsGCZciToPx_wP0MPN0_0nbcIDfgCPTeqU1xpLZg1ThvlGsDFp7lGMW75rSAVZCEv8Lw08Lox7ITbkCqOt3ASrz584VodP89VZkc59socNrH3U9WPY-uEmjxNf5zWXqND6ZAL03nppLJKcq0E2lHFLgRrAjfGorRBG9lqKbUUUeiRqxGNrVBCovoRvN_S9gN9-_wFyY9mOg:1ubNNf:A95Y7lJWRnFq5C6Ltl2y4Kxlr1PnKxtluZQ-Huc0FQU",
+    "expire_date": "2025-07-28T17:54:23.904Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tkq52oqgqveznlgh4ipzycmnb7y11uxn",
+  "fields": {
+    "session_data": ".eJxVkM1ugzAQhN9lz8jyX2zg1PQ1qggttgGrYEfYKK2ivHtNyoXbaHf229E8AY2JW8gdbnlyIXuD2cfQLS5P0SZov57wr6GFO6b0iKuFCjBDy_SFc6mV0oRRrrQQFbgF_VysOM8YisYxBusXgsv4Me47YuICr1sF74_dltza-R3OBJyGPZpvF-zBKmNyRCVvz7FO5HoK_nlcnVATpqlwai1rHJgWjEltDDbSGiskHzjTFNEZ3Qz1gM1FOdoohYrJmlvV95yqBoXeocmltPfjfu5-_S0d8GKl9PUHvy9tcQ:1uaFf9:PGs0mTvcHEnSHChp3Q5LPQGtDxzbtlzyCzd27ikOehE",
+    "expire_date": "2025-07-25T15:27:47.127Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vczldpn3q4257ozljgekb7fc9bz3uetv",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-yR9Kes5grXfXOIAcKU4qxN0hUgpo38y8l8iwrS1vg5c8kTgLLU6_WwF8cN8B3aHfZolzX5epyF2RBx3yOhM_L4f7d9BgtG-dtKomOsaqHUZWCYNxHL0jChB9LEyG2VlEC-QiYVJgq_E2hJooBfH-AO9-OFI:1tJJbP:ali59MoWbJ4J0Us7MmWvcBusTpgQXDSCD7Iz8T0b_SE",
+    "expire_date": "2024-12-19T21:41:39.008Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w6nbbv6uzv3zx9c208i0hpidb70o96bx",
+  "fields": {
+    "session_data": ".eJxVkNFuhCAQRf9lng0RRBCfuv2NpjEjoJIKbATTNpv99-LWF99uZu6cubkPQK3jHvKAe15syE5jdjEM3uYlmgT9xwP-NfRwx5S-42agAszQU9ky2jZMScKp6ASrwHp0a3HiumIoGucYjPME_fw2Hzuio4fnZwWvh8Oe7Da4g00buAxH1F82mJNVxuRMSl6ec53I7ZL7_by6oBZMS-F0knc4UdlQyqXWqLjRpuFsYlTWiFZLNXUTqlbYWgmBgvKOGTGOrBYKG3lAk03pqMf-3N32WypgxVrXzz92GG1B:1uZr73:R7oaYHeyRyfMVbTiGF0nnmiziRKP_LiAnvKJO8pirBY",
+    "expire_date": "2025-07-24T13:14:57.465Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yqvejxnfnbep2ymh2ikrikioyoca2xkw",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxTlBxLg1O1rVBUySYCoJFmRoLZa7bs3bLlwG9njz6N5AGod95AH3PNiQ3Yas4th8DYv0SToPx7wr6GHO6b0HTcDFWCGnqmGUyaVoqQRQnHFK7Ae3VqsuK4YisY5BuM8QT-_zceO6Ojh-VnB6-OwJ7sN7oAzAZfhiPrLBnOyypicUcnLc64TuV2Cv59XF9SCaSmcVtUtTkwJxmqlNXa10UbUfOJMUUSrVTe1E3aNtLSTEiWrW27kOHIqOxTqgCab0tGP_bm77bd0wIuV0ucfuv1tbQ:1uZHb0:Xo_Ppdskv5QGyrUIzkHkS19FUD7nJem6C-Du8q43z9A",
+    "expire_date": "2025-07-22T23:19:30.581Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z0mata8fa2umas26d8uyvmmuu5fv4mc8",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxSRhPxx6vY1qgqZJEBUSFYkqK1W--6FLRduo5nxZ8sPQGvTFkuHW5l8LMFiCSl2iy9Tchnajwf8a2jhjjl_p9VBBVigpUowwRQXkmijJRW6Ar9gmPcqzjPGXeOYogsLwWV8G4-M2LTA87OC18Zuy37twgGnHC5mj_bLR3eydpucp5JX54wzuV0Ofz-nLqgJ87RztGo0DlRxShtlLZrGWccbNjCqakRvlRn0gEZIXxspUdJGMyf7ntXSIFcHNPucj__4n3tYf6Gtn39FjmxS:1ubQQG:957QxzbizZBDx2Xsu9OPbaaenWSotcOaQ-3VKbJtQBQ",
+    "expire_date": "2025-07-28T21:09:16.912Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zotr1fb3sfuptvgk4mu02qz0ov2givp2",
+  "fields": {
+    "session_data": ".eJxVkM2OgzAMhN_FZ4SApCThtN3XWFXIOKZEC0lFwv6o6rtv0-XCzZoZfx75DkgUNp963NLEPjnC5ILvF05TsBG6jzv8z9DBDWP8DquFAjBBVyshTlXbKFMKY7RsRQG8oJuf0asLX-idHVak4N3bNeslhQUelwJe1_ot8tq7DK7hoA1In-yzgfOc5XJvWb4yux3L86Hz-751QE0YpyfH1NXYaMk01pI0V4ZUI1m30lqFutUD24ZZCiKBVmpLpkIxNq1QajTWqAyNHGN-Df_c3PoLXfX4A2yVa6A:1tJcAh:idwIKwxD57osLgk6xACdLj3Jceu3P7z0VcPSqt6QWGg",
+    "expire_date": "2024-12-20T17:31:19.410Z"
+  }
+},
+{
+  "model": "Core.paleta_core",
+  "pk": 1,
+  "fields": {
+    "nome": "roxo",
+    "cor_principal": "4D49BF",
+    "cor_detalhes": "BE53FF"
+  }
+},
+{
+  "model": "Core.paleta_core",
+  "pk": 2,
+  "fields": {
+    "nome": "Verde",
+    "cor_principal": "03A64A",
+    "cor_detalhes": "64FF1C"
+  }
+},
+{
+  "model": "Core.paleta_core",
+  "pk": 3,
+  "fields": {
+    "nome": "Azul",
+    "cor_principal": "4AD4CD",
+    "cor_detalhes": "4A7FFF"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 4,
+  "fields": {
+    "cor": 2,
+    "alt": "verde_1_beneficio.png",
+    "imagem": "static/images/global/cores/Verde/beneficios/verde_1_beneficio.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 5,
+  "fields": {
+    "cor": 2,
+    "alt": "verde_2_beneficio.png",
+    "imagem": "static/images/global/cores/Verde/beneficios/verde_2_beneficio.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 6,
+  "fields": {
+    "cor": 2,
+    "alt": "verde_3_beneficio.png",
+    "imagem": "static/images/global/cores/Verde/beneficios/verde_3_beneficio.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 7,
+  "fields": {
+    "cor": 3,
+    "alt": "beneficio1-azul.png",
+    "imagem": "static/images/global/cores/Azul/beneficios/beneficio_1_azul.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 8,
+  "fields": {
+    "cor": 3,
+    "alt": "beneficio2-azul.png",
+    "imagem": "static/images/global/cores/Azul/beneficios/beneficio_2_azul.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 9,
+  "fields": {
+    "cor": 3,
+    "alt": "beneficio3-azul.png",
+    "imagem": "static/images/global/cores/Azul/beneficios/beneficio_3_azul.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 10,
+  "fields": {
+    "cor": 1,
+    "alt": "beneficio1-roxo.png",
+    "imagem": "static/images/global/cores/roxo/beneficios/beneficio1-roxo.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 11,
+  "fields": {
+    "cor": 1,
+    "alt": "beneficio2-roxo.png",
+    "imagem": "static/images/global/cores/roxo/beneficios/beneficio2-roxo.png"
+  }
+},
+{
+  "model": "Core.imagens_beneficios_core",
+  "pk": 12,
+  "fields": {
+    "cor": 1,
+    "alt": "beneficio3-roxo.png",
+    "imagem": "static/images/global/cores/roxo/beneficios/beneficio3-roxo.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 4,
+  "fields": {
+    "cor": 2,
+    "alt": "IMAGEM 1 - IDEAL PARA.png",
+    "imagem": "static/images/global/cores/Verde/ideal_para/IMAGEM_1_-_IDEAL_PARA.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 5,
+  "fields": {
+    "cor": 2,
+    "alt": "IMAGEM 2 - IDEAL PARA.png",
+    "imagem": "static/images/global/cores/Verde/ideal_para/IMAGEM_2_-_IDEAL_PARA.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 6,
+  "fields": {
+    "cor": 2,
+    "alt": "IMAGEM 3 - IDEAL PARA.png",
+    "imagem": "static/images/global/cores/Verde/ideal_para/IMAGEM_3_-_IDEAL_PARA.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 7,
+  "fields": {
+    "cor": 3,
+    "alt": "ideal_para_azul_1.png",
+    "imagem": "static/images/global/cores/Azul/ideal_para/ideal_para_azul_1.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 8,
+  "fields": {
+    "cor": 3,
+    "alt": "ideal_para_azul_2.png",
+    "imagem": "static/images/global/cores/Azul/ideal_para/ideal_para_azul_2.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 9,
+  "fields": {
+    "cor": 3,
+    "alt": "ideal_para_azul_3.png",
+    "imagem": "static/images/global/cores/Azul/ideal_para/ideal_para_azul_3.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 10,
+  "fields": {
+    "cor": 1,
+    "alt": "Ideal_para_roxo_1.png",
+    "imagem": "static/images/global/cores/roxo/ideal_para/Ideal_para_roxo_1.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 11,
+  "fields": {
+    "cor": 1,
+    "alt": "Ideal_para_roxo_2.png",
+    "imagem": "static/images/global/cores/roxo/ideal_para/Ideal_para_roxo_2.png"
+  }
+},
+{
+  "model": "Core.imagens_ideal_para_core",
+  "pk": 12,
+  "fields": {
+    "cor": 1,
+    "alt": "Ideal_para_roxo_3.png",
+    "imagem": "static/images/global/cores/roxo/ideal_para/Ideal_para_roxo_3.png"
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 1,
+  "fields": {
+    "nome": "GET",
+    "logo": "static/images/estacoes/GET/logo/Get_preta.png",
+    "icon": "static/images/estacoes/GET/icon/Get_preta_DsId0Ds.png",
+    "cor": 1,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de GET (Gest├úo Escolar e Tutoria) ├® um ambiente dedicado a proporcionar suporte educacional e administrativo que enriquece a experi├¬ncia acad├¬mica dos alunos. Com foco em gest├úo escolar eficiente e tutoria personalizada, essa esta├º├úo oferece um espa├ºo onde os alunos podem otimizar sua trajet├│ria educacional, obter orienta├º├úo individualizada e desenvolver habilidades para o sucesso acad├¬mico e pessoal. O objetivo ├® criar um ambiente educacional positivo que promova o crescimento hol├¡stico dos alunos.",
+    "texto_funcionamento": "Na Esta├º├úo de GET, a equipe de alunos atua em parceria com gestores escolares e tutores para otimizar processos educacionais e oferecer apoio cont├¡nuo. Os alunos ajudam a implementar pr├íticas de gest├úo escolar que promovem a efici├¬ncia operacional, bem como a fornecer orienta├º├Áes personalizadas para outros alunos, abordando aspectos acad├¬micos e de desenvolvimento pessoal. O foco ├® criar um ambiente de aprendizado eficaz e colaborativo, onde cada aluno recebe o suporte necess├írio para alcan├ºar seu pleno potencial.",
+    "Servico_1": "Otimiza├º├úo Educacional: Implementa├º├úo de pr├íticas de gest├úo que melhoram a efici├¬ncia operacional da institui├º├úo e facilitam a experi├¬ncia dos alunos.",
+    "Servico_2": "Suporte Personalizado: Orienta├º├úo individualizada para atender ├ás necessidades espec├¡ficas de cada aluno, auxiliando em seu desenvolvimento acad├¬mico e pessoal.",
+    "Servico_3": "Desempenho Aprimorado: Monitoramento do progresso acad├¬mico e cria├º├úo de estrat├®gias para melhorar continuamente o desempenho dos alunos.",
+    "responsabilidade": "Os alunos na Esta├º├úo de GET t├¬m como responsabilidades:\r\nGerir e otimizar processos escolares, garantindo que o ambiente educacional seja organizado e prop├¡cio ao aprendizado.\r\nOferecer tutoria personalizada, adaptando o suporte ├ás necessidades individuais de cada aluno, promovendo tanto o desempenho acad├¬mico quanto o desenvolvimento pessoal.\r\nMonitorar o desempenho dos alunos e implementar estrat├®gias de melhoria, assegurando uma experi├¬ncia educacional positiva e um crescimento completo.",
+    "Beneficios_1": "Experi├¬ncia em Gest├úo Educacional e Organiza├º├úo: Desenvolvimento de habilidades em planejamento e execu├º├úo de processos administrativos escolares.",
+    "Beneficios_2": "Crescimento Acad├¬mico e Pessoal: A oportunidade de guiar e ser guiado em uma jornada educacional que prioriza tanto o desempenho acad├¬mico quanto o desenvolvimento social e emocional.",
+    "Beneficios_3": "Ambiente Educacional Otimizado: Experi├¬ncia pr├ítica na cria├º├úo e manuten├º├úo de um ambiente de aprendizagem eficiente e colaborativo.",
+    "Ideal_para_1": "Orienta├º├úo individualizada: Ideal para alunos que buscam maximizar seu potencial acad├¬mico e pessoal.",
+    "Ideal_para_2": "Gest├úo educacional: Para aqueles que desejam aprender sobre gest├úo e organiza├º├úo de ambientes educacionais.",
+    "Ideal_para_3": "Desenvolvimento hol├¡stico: Perfeito para indiv├¡duos interessados em promover o desenvolvimento completo de outros estudantes.",
+    "Competencia_1": "Planejamento e Organiza├º├úo: Habilidade de planejar e otimizar processos educacionais para aumentar a efici├¬ncia escolar.",
+    "Competencia_2": "Lideran├ºa e Tutoria: Compet├¬ncia em liderar e guiar outros alunos, oferecendo suporte individualizado para seu desenvolvimento.",
+    "Competencia_3": "Tomada de Decis├úo e Solu├º├úo de Problemas: Capacidade de identificar necessidades e implementar estrat├®gias para superar desafios e promover um ambiente educacional positivo."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 2,
+  "fields": {
+    "nome": "ESG",
+    "logo": "static/images/estacoes/ESG/logo/esg_preto.png",
+    "icon": "static/images/estacoes/ESG/icon/esg_branco_lXXY2Vb.png",
+    "cor": 2,
+    "descricao_estacao": "A Esta├º├úo ESG (Environmental, Social, and Governance) de Pr├íticas Profissionais foca na avalia├º├úo e promo├º├úo de pr├íticas empresariais sustent├íveis que v├úo al├®m do lucro, visando contribuir positivamente para o meio ambiente, a sociedade e a governan├ºa corporativa. Atuando como um canal de entrada de projetos do Eniac, a Esta├º├úo ESG permite que alunos se envolvam em projetos internos e externos, aplicando os princ├¡pios de sustentabilidade, responsabilidade social e governan├ºa em situa├º├Áes reais. Esta experi├¬ncia prepara os alunos para carreiras comprometidas com pr├íticas ├®ticas e respons├íveis.",
+    "texto_funcionamento": "Na Esta├º├úo ESG, os alunos assumem um papel ativo, participando da avalia├º├úo e implementa├º├úo de pr├íticas sustent├íveis dentro das empresas. Com um enfoque meticuloso e colaborativo, eles revisam documentos e processos, desenvolvem pol├¡ticas de governan├ºa e promovem uma comunica├º├úo eficiente e profissional. Al├®m disso, os alunos colaboram com outras equipes para assegurar uma abordagem hol├¡stica que integra as tr├¬s dimens├Áes ESG em todos os projetos, com a ajuda de ferramentas e metodologias de gest├úo que incentivam a responsabilidade corporativa e a efici├¬ncia organizacional.",
+    "Servico_1": "Avalia├º├úo e Implementa├º├úo de Pr├íticas Sustent├íveis: An├ílise e sugest├úo de a├º├Áes para tornar opera├º├Áes e processos mais sustent├íveis, contribuindo para a preserva├º├úo ambiental.",
+    "Servico_2": "Desenvolvimento de Pol├¡ticas de Governan├ºa Corporativa: Cria├º├úo de pol├¡ticas que garantem transpar├¬ncia, ├®tica e responsabilidade dentro das organiza├º├Áes",
+    "Servico_3": "Treinamento em Responsabilidade Social Empresarial: Capacita├º├úo de equipes e colaboradores para compreender e aplicar pr├íticas que promovam impacto social positivo.",
+    "responsabilidade": "Os alunos na Esta├º├úo ESG t├¬m responsabilidades que incluem:\r\nConduzir avalia├º├Áes detalhadas para identificar oportunidades de implementar pr├íticas empresariais sustent├íveis e respons├íveis.\r\nDesenvolver e implementar estrat├®gias e pol├¡ticas de governan├ºa que promovam uma cultura organizacional ├®tica e transparente.\r\nRealizar treinamentos e orienta├º├Áes em responsabilidade social para aumentar o impacto positivo das opera├º├Áes no ambiente e na sociedade.\r\nIntegrar os princ├¡pios ESG em todos os processos, priorizando tanto o sucesso financeiro quanto o impacto socioambiental positivo.",
+    "Beneficios_1": "Reputa├º├úo Sustent├ível: Experi├¬ncia em pr├íticas que fortalecem a imagem p├║blica e o compromisso com a sustentabilidade.",
+    "Beneficios_2": "Efici├¬ncia Operacional Aprimorada: Compet├¬ncia em desenvolver processos que otimizam o uso de recursos e minimizam o impacto ambiental.",
+    "Beneficios_3": "Resili├¬ncia e Inova├º├úo: Habilidade de enfrentar desafios ambientais e sociais com solu├º├Áes inovadoras e estrat├®gias resilientes.",
+    "Ideal_para_1": "Sustentabilidade e Governan├ºa: Para quem busca integrar pr├íticas sustent├íveis e respons├íveis em sua trajet├│ria profissional.",
+    "Ideal_para_2": "Pr├íticas ├ëticas e Neg├│cios: Ideal para entender e aplicar ├®tica no mundo corporativo.",
+    "Ideal_para_3": "Finan├ºas Sustent├íveis: Para quem deseja especializar-se em investimentos com foco em impacto social e ambiental.",
+    "Competencia_1": "Sustentabilidade e Responsabilidade Ambiental: Habilidades para criar e implementar pr├íticas que promovem a preserva├º├úo do meio ambiente.",
+    "Competencia_2": "Governan├ºa Corporativa e Transpar├¬ncia: Compet├¬ncia para elaborar pol├¡ticas que asseguram ├®tica, transpar├¬ncia e responsabilidade organizacional.",
+    "Competencia_3": "Inova├º├úo Social e Resili├¬ncia Organizacional: Capacidade de desenvolver solu├º├Áes inovadoras e resilientes para os desafios ambientais e sociais, promovendo um impacto positivo no meio empresarial e na sociedade"
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 3,
+  "fields": {
+    "nome": "Cloud",
+    "logo": "static/images/estacoes/Cloud/logo/cloud_preto.png",
+    "icon": "static/images/estacoes/Cloud/icon/cloud_branco.png",
+    "cor": 1,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Cloud Computing ├® um espa├ºo dedicado ao aprendizado e aplica├º├úo pr├ítica de servi├ºos de computa├º├úo em nuvem, incluindo armazenamento de dados, seguran├ºa, rede, software e business intelligence. Atrav├®s de uma abordagem hands-on, os alunos ganham experi├¬ncia em administrar e otimizar recursos em plataformas de nuvem, atendendo a projetos internos e externos no Eniac.",
+    "texto_funcionamento": "Na Esta├º├úo de Cloud Computing, os alunos utilizam o sistema Link para gerenciar a entrada de desafios e o cadastro de projetos, acompanhando de perto as atividades de outras Esta├º├Áes de Pr├íticas Profissionais. Trabalhando em colabora├º├úo com o PMO e com parceiros e clientes do Eniac, eles aprendem a maximizar a efici├¬ncia dos recursos computacionais, gerenciar aplicativos em ambientes de nuvem e garantir a seguran├ºa dos dados. Essa experi├¬ncia fornece uma vis├úo abrangente dos processos de cloud e das melhores pr├íticas de seguran├ºa e sustentabilidade.",
+    "Servico_1": "Gerenciamento de Aplicativos em Ambientes de Nuvem: Administra├º├úo e monitoramento de aplicativos e sistemas em plataformas de nuvem.",
+    "Servico_2": "Aprendizado em Uso Eficiente de Recursos Computacionais: Pr├ítica em otimizar recursos para minimizar custos e maximizar a efici├¬ncia.",
+    "Servico_3": "Servi├ºos de Banco de Dados: Gest├úo de banco de dados em nuvem, garantindo acesso r├ípido e seguro ├ás informa├º├Áes.",
+    "responsabilidade": "Os alunos na Esta├º├úo de Cloud Computing t├¬m responsabilidades que incluem: Assegurar a seguran├ºa dos dados e aplicar pr├íticas robustas para prote├º├úo de informa├º├Áes sens├¡veis. Gerenciar os recursos computacionais com foco em sustentabilidade, evitando desperd├¡cio e otimizando o uso de recursos de forma eficiente. Colaborar com as equipes internas e parceiros para garantir que todos os projetos de nuvem sejam bem-sucedidos e atendam aos padr├Áes de qualidade e seguran├ºa.",
+    "Beneficios_1": "Experi├¬ncia com Desafios Reais: Viv├¬ncia em situa├º├Áes do ambiente profissional de cloud computing, preparando-os para os desafios do mercado.",
+    "Beneficios_2": "Desenvolvimento de Confian├ºa nas Habilidades: Forma├º├úo pr├ítica que capacita os alunos a gerenciar ambientes de nuvem com seguran├ºa e efici├¬ncia.",
+    "Beneficios_3": "Portf├│lio Pr├ítico: Conjunto de projetos pr├íticos que demonstram a aplica├º├úo direta das habilidades em cloud, sendo um diferencial para o mercado.",
+    "Ideal_para_1": "Aprendizado Pr├ítico: Para quem valoriza aprender por meio da pr├ítica e aplica├º├úo direta dos conceitos.",
+    "Ideal_para_2": "Resolu├º├úo de Problemas: Ideal para estudantes que gostam de enfrentar desafios t├®cnicos e solucionar problemas reais.",
+    "Ideal_para_3": "Foco no Mercado: Para quem busca uma abordagem pr├ítica, com conex├Áes claras ├ás demandas do mercado de trabalho.",
+    "Competencia_1": "Gerenciamento de Aplicativos e Recursos na Nuvem: Habilidade de monitorar e otimizar a execu├º├úo de aplicativos e recursos computacionais.",
+    "Competencia_2": "Seguran├ºa de Dados e Prote├º├úo da Privacidade: Compet├¬ncia em aplicar pr├íticas de seguran├ºa que protejam informa├º├Áes sens├¡veis em plataformas de nuvem.",
+    "Competencia_3": "Sustentabilidade e Efici├¬ncia Computacional: Capacidade de administrar recursos com foco em sustentabilidade e redu├º├úo de custos, alinhando-se ├ás melhores pr├íticas de cloud computing."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 4,
+  "fields": {
+    "nome": "Low Code",
+    "logo": "static/images/estacoes/Low Code/logo/low_code_preto.png",
+    "icon": "static/images/estacoes/Low Code/icon/low_code_branco.png",
+    "cor": 1,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Low Code ├® um ambiente din├ómico onde os alunos aprendem a desenvolver aplicativos e sistemas com uma abordagem low code, usando interfaces gr├íficas em vez de programa├º├úo tradicional. Esse espa├ºo permite que eles explorem solu├º├Áes inovadoras e adquiram experi├¬ncia pr├ítica em intelig├¬ncia artificial, especialmente para chatbots, e na gest├úo de business intelligence. A esta├º├úo capacita os alunos para criar tecnologia avan├ºada de forma r├ípida e eficiente.",
+    "texto_funcionamento": "Na Esta├º├úo de Low Code, os alunos utilizam uma interface gr├ífica de desenvolvimento para criar aplicativos e sistemas sem a necessidade de extensa codifica├º├úo. Eles trabalham em colabora├º├úo, aplicando o conhecimento adquirido para resolver desafios reais e desenvolver ferramentas pr├íticas para empresas e parceiros. Al├®m de aprender a programar chatbots com intelig├¬ncia artificial, os alunos tamb├®m participam de atividades de business intelligence, o que lhes proporciona uma compreens├úo completa do ciclo de desenvolvimento e gest├úo de tecnologias low code.",
+    "Servico_1": "Desenvolvimento de Aplicativos Low Code: Cria├º├úo de aplicativos e solu├º├Áes de software usando plataformas de desenvolvimento visual.",
+    "Servico_2": "Desenho e Inova├º├úo de Solu├º├Áes: Concebendo e projetando sistemas eficientes que respondem a necessidades reais de usu├írios e empresas.",
+    "Servico_3": "Gest├úo de Business Intelligence: Coleta, an├ílise e interpreta├º├úo de dados para apoiar decis├Áes estrat├®gicas nas empresas.",
+    "responsabilidade": "Os alunos na Esta├º├úo de Low Code assumem responsabilidades como: Aplicar seus conhecimentos para desenvolver aplicativos e solu├º├Áes low code que atendam a requisitos espec├¡ficos. Programar e implementar intelig├¬ncia artificial em chatbots, tornando-os funcionais e interativos. Participar de atividades de business intelligence, utilizando dados para extrair insights valiosos e apoiar o processo de tomada de decis├úo. Colaborar com a equipe para inovar e gerenciar projetos de forma eficiente, promovendo a cria├º├úo de solu├º├Áes tecnol├│gicas eficazes.",
+    "Beneficios_1": "Experi├¬ncia Pr├ítica e Aplica├º├úo de Conhecimento: Oportunidade de aplicar diretamente o que aprendem na cria├º├úo de solu├º├Áes de tecnologia.",
+    "Beneficios_2": "Envolvimento em Atividades de Business Intelligence: Desenvolvimento de habilidades em an├ílise de dados para apoiar decis├Áes estrat├®gicas.",
+    "Beneficios_3": "Habilidades de Gerenciamento de Projetos: Aprendizado pr├ítico de planejamento e execu├º├úo de projetos, essencial para o sucesso no setor de tecnologia.",
+    "Ideal_para_1": "Explora├º├úo de low code: Ideal para alunos que desejam se aprofundar no desenvolvimento de aplicativos low code.",
+    "Ideal_para_2": "Intelig├¬ncia artificial e chatbots: Para os interessados em programa├º├úo de IA, especialmente voltada para chatbots.",
+    "Ideal_para_3": "Gest├úo de projetos e colabora├º├úo: Perfeito para quem busca desenvolver habilidades em gest├úo de projetos e valoriza a inova├º├úo e colabora├º├úo no desenvolvimento de solu├º├Áes tecnol├│gicas.",
+    "Competencia_1": "Desenvolvimento de Aplicativos e Solu├º├Áes Low Code: Capacidade de criar aplicativos e sistemas sem necessidade de programa├º├úo extensiva.",
+    "Competencia_2": "Intelig├¬ncia Artificial para Chatbots: Habilidade de programar e integrar IA para criar intera├º├Áes automatizadas e personalizadas.",
+    "Competencia_3": "An├ílise de Business Intelligence: Compet├¬ncia em coletar e interpretar dados para insights estrat├®gicos, impulsionando o processo de decis├úo."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 5,
+  "fields": {
+    "nome": "No Code",
+    "logo": "static/images/estacoes/No Code/logo/no_code_preta.png",
+    "icon": "static/images/estacoes/No Code/icon/no_code_branco.png",
+    "cor": 1,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de No Code ├® um ambiente projetado para o desenvolvimento de solu├º├Áes de software sem a necessidade de codifica├º├úo tradicional. Aqui, os alunos utilizam ferramentas visuais para criar aplicativos, sites e automa├º├Áes de processos, permitindo que transformem ideias em produtos funcionais de forma r├ípida e intuitiva. A esta├º├úo oferece uma abordagem pr├ítica para que os alunos possam criar e testar solu├º├Áes tecnol├│gicas sem a barreira do c├│digo.",
+    "texto_funcionamento": "O processo na Esta├º├úo de Pr├íticas Profissionais de No Code segue uma abordagem pr├ítica e iterativa, composta pelas seguintes etapas: Os estagi├írios iniciam compreendendo as demandas de clientes, parceiros ou desafios internos, definindo claramente o problema a ser resolvido. Com base na an├ílise do problema, s├úo criadas solu├º├Áes conceituais. Nesse momento, s├úo exploradas as possibilidades oferecidas pelas ferramentas No Code dispon├¡veis. Os estagi├írios utilizam plataformas de desenvolvimento visual para construir aplicativos, sites ou automa├º├Áes.",
+    "Servico_1": "Desenvolvimento de Aplicativos e Sites No Code: Cria├º├úo de aplicativos m├│veis, sistemas e sites usando plataformas de desenvolvimento visual.",
+    "Servico_2": "Automa├º├úo de Processos e Workflows: Implementa├º├úo de fluxos automatizados que otimizam tarefas repetitivas e melhoram a efici├¬ncia operacional.",
+    "Servico_3": "Prototipagem R├ípida e Testes de Mercado: Desenvolvimento de prot├│tipos para testar ideias rapidamente, permitindo ajustes e valida├º├Áes em um curto espa├ºo de tempo.",
+    "responsabilidade": "Os alunos na Esta├º├úo de No Code t├¬m como responsabilidades: utilizar ferramentas no code para desenvolver solu├º├Áes funcionais, atendendo ├ás necessidades de clientes e parceiros. Criar e otimizar fluxos de trabalho e automa├º├Áes que simplifiquem opera├º├Áes e processos. Testar e validar prot├│tipos com foco na experi├¬ncia do usu├írio (UX) e na usabilidade, realizando ajustes conforme necess├írio. Colaborar com outras ├íreas, como marketing e design, para garantir que as solu├º├Áes criadas estejam alinhadas com os objetivos estrat├®gicos.",
+    "Beneficios_1": "Experi├¬ncia em Desenvolvimento R├ípido e Iterativo: Habilidade de criar e testar solu├º├Áes rapidamente, respondendo ├ás necessidades de mercado com agilidade",
+    "Beneficios_2": "Desenvolvimento de Compet├¬ncias em Automa├º├úo de Processos: Capacidade de implementar automa├º├Áes que aumentam a efici├¬ncia e reduzem tarefas manuais.",
+    "Beneficios_3": "Portf├│lio Pr├ítico em Ferramentas No Code: Conjunto de projetos que demonstra a aplica├º├úo de habilidades no code, ideal para alunos que desejam mostrar flexibilidade e inova├º├úo no mercado..",
+    "Ideal_para_1": "Desenvolvimento pr├ítico e r├ípido: Ideal para alunos que querem criar solu├º├Áes tecnol├│gicas de forma eficiente e pr├ítica.",
+    "Ideal_para_2": "Interesse em automa├º├úo e UX: Para aqueles com foco em automa├º├úo e experi├¬ncia do usu├írio (UX).",
+    "Ideal_para_3": "Abordagem visual e intuitiva: Perfeito para estudantes que preferem uma abordagem visual e intuitiva no desenvolvimento de software.",
+    "Competencia_1": "Cria├º├úo de Solu├º├Áes e Interfaces No Code: Compet├¬ncia em criar aplicativos e sites sem codifica├º├úo, com ├¬nfase na funcionalidade e usabilidade.",
+    "Competencia_2": "Automa├º├úo de Processos e Efici├¬ncia Operacional: Habilidade de configurar automa├º├Áes que aumentam a produtividade e simplificam tarefas.",
+    "Competencia_3": "Prototipagem e Teste de Experi├¬ncia do Usu├írio: Capacidade de criar prot├│tipos e testar solu├º├Áes com foco na experi├¬ncia do usu├írio e feedbacks r├ípidos"
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 6,
+  "fields": {
+    "nome": "Dev",
+    "logo": "static/images/estacoes/Dev/logo/dev_preto.png",
+    "icon": "static/images/estacoes/Dev/icon/dev_branco.png",
+    "cor": 1,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Hard Code ├® um espa├ºo dedicado ao desenvolvimento profundo em programa├º├úo, onde os alunos trabalham diretamente com linguagens de programa├º├úo tradicionais para criar solu├º├Áes de software complexas. Este ambiente permite que os alunos desenvolvam habilidades avan├ºadas em codifica├º├úo, algoritmos e arquitetura de sistemas, proporcionando uma base s├│lida para enfrentar desafios t├®cnicos de alto n├¡vel no mercado.",
+    "texto_funcionamento": "Na Esta├º├úo de Hard Code, os alunos aplicam linguagens de programa├º├úo como Python, Java, C++, entre outras, para desenvolver software e sistemas personalizados. Trabalhando em projetos reais para empresas parceiras e desafios internos do ENIAC, eles passam por todas as etapas do desenvolvimento de software: desde a concep├º├úo e planejamento at├® a codifica├º├úo, teste e implanta├º├úo. Em colabora├º├úo com outras Esta├º├Áes de Pr├íticas Profissionais, os alunos aplicam t├®cnicas de engenharia de software, aprimorando suas habilidades em resolu├º├úo de problemas complexos.",
+    "Servico_1": "Desenvolvimento de Software e Sistemas: Cria├º├úo de solu├º├Áes robustas e personalizadas para atender ├ás necessidades espec├¡ficas de empresas e parceiros.",
+    "Servico_2": "Codifica├º├úo de Algoritmos e Estruturas de Dados: Desenvolvimento de algoritmos eficientes e estruturas de dados avan├ºadas para otimizar o desempenho de sistemas.",
+    "Servico_3": "Integra├º├úo e Automa├º├úo de Sistemas: Conex├úo de diferentes sistemas e automa├º├úo de processos, aumentando a efici├¬ncia e integra├º├úo de plataformas",
+    "responsabilidade": "Os alunos na Esta├º├úo de Hard Code t├¬m como responsabilidades: Codificar, testar e depurar solu├º├Áes complexas usando linguagens de programa├º├úo tradicionais. Desenvolver algoritmos e estruturas de dados que resolvam problemas de forma eficiente e otimizada. Colaborar com outras ├íreas de desenvolvimento para integrar diferentes componentes do sistema e garantir a funcionalidade completa do projeto. Manter-se atualizado com as melhores pr├íticas de engenharia de software, aplicando-as no desenvolvimento de solu├º├Áes seguras e escal├íveis.",
+    "Beneficios_1": "Experi├¬ncia Avan├ºada em Programa├º├úo: Desenvolvimento de habilidades avan├ºadas em linguagens de programa├º├úo e t├®cnicas de engenharia de software.",
+    "Beneficios_2": "Aprimoramento na Solu├º├úo de Problemas Complexos: Habilidade de enfrentar e resolver problemas t├®cnicos complexos que exigem uma abordagem aprofundada em codifica├º├úo.",
+    "Beneficios_3": "Desenvolvimento de Portf├│lio T├®cnico S├│lido: Conjunto de projetos que demonstram a aplica├º├úo pr├ítica de habilidades em programa├º├úo avan├ºada, ideal para destacar-se no mercado de tecnologia.",
+    "Ideal_para_1": "Aprofundamento em programa├º├úo: Ideal para alunos com interesse em expandir seus conhecimentos em programa├º├úo tradicional.",
+    "Ideal_para_2": "Resolu├º├úo de problemas complexos: Para aqueles que gostam de resolver problemas t├®cnicos desafiadores.",
+    "Ideal_para_3": "Especializa├º├úo em software e arquitetura: Perfeito para quem deseja se especializar em codifica├º├úo e no desenvolvimento de sistemas robustos e eficientes.",
+    "Competencia_1": "Codifica├º├úo Avan├ºada e Desenvolvimento de Algoritmos: Habilidade de programar e otimizar c├│digo para criar solu├º├Áes eficazes e escal├íveis.",
+    "Competencia_2": "Engenharia de Software e Arquitetura de Sistemas: Compet├¬ncia em projetar a estrutura de sistemas robustos e modulares, que garantem funcionalidade e desempenho.",
+    "Competencia_3": "Integra├º├úo de Sistemas e Automa├º├úo de Processos: Capacidade de conectar sistemas e automatizar fluxos de trabalho, aumentando a efici├¬ncia e integridade dos projetos."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 7,
+  "fields": {
+    "nome": "Mkt",
+    "logo": "static/images/estacoes/Mkt/logo/marketing_preto.png",
+    "icon": "static/images/estacoes/Mkt/icon/marketing_branco.png",
+    "cor": 3,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Marketing Digital ├® um ambiente focado no desenvolvimento de estrat├®gias para criar e entregar valor ao mercado, com o objetivo de atrair e engajar consumidores por meio de produtos e servi├ºos relevantes. Os alunos adquirem experi├¬ncia pr├ítica na cria├º├úo de campanhas digitais, gerenciamento de m├¡dias sociais, desenvolvimento de conte├║do persuasivo e an├ílise de dados, preparando-os para o din├ómico mercado de marketing digital.",
+    "texto_funcionamento": "Na Esta├º├úo de Marketing Digital, os alunos trabalham em conjunto com gerentes de marketing, especialistas em m├¡dias sociais, analistas de dados e outros profissionais. Cada membro desempenha um papel essencial: os gerentes definem estrat├®gias e metas, os especialistas gerenciam as redes sociais e os analistas monitoram e interpretam os dados de desempenho das campanhas. Essa estrutura permite que os alunos participem ativamente de todo o ciclo de marketing digital, desde o planejamento at├® a execu├º├úo e otimiza├º├úo de campanhas, colaborando para aumentar a visibilidade e a competitividade da organiza├º├úo.",
+    "Servico_1": "Design Gr├ífico e Composi├º├Áes Visuais: Cria├º├úo de pe├ºas visuais atraentes para redes sociais, an├║ncios e outros canais de comunica├º├úo.",
+    "Servico_2": "Desenvolvimento de Sites e Blogs: Produ├º├úo e gerenciamento de conte├║dos digitais, com foco em SEO e experi├¬ncia do usu├írio (UX).",
+    "Servico_3": "Copywriting e T├®cnicas de Persuas├úo: Cria├º├úo de textos persuasivos e estrat├®gicos para atrair e engajar o p├║blico-alvo.",
+    "responsabilidade": "Os alunos na Esta├º├úo de Marketing Digital t├¬m como responsabilidades: Conceber, desenvolver e implementar estrat├®gias de marketing digital eficazes, com foco em promo├º├úo e visibilidade da marca. Gerenciar plataformas de comunica├º├úo digital, como m├¡dias sociais e campanhas publicit├írias, adaptando o conte├║do ao p├║blico-alvo e monitorando o engajamento. Realizar an├ílise cont├¡nua do desempenho das campanhas por meio de m├®tricas e dados, ajustando as estrat├®gias de acordo com os resultados.\r\nManter uma imagem positiva da marca, enfrentar desafios emergentes e adaptar as a├º├Áes de marketing conforme as tend├¬ncias e as mudan├ºas do mercado",
+    "Beneficios_1": "Cria├º├úo e Implementa├º├úo de Estrat├®gias Eficazes: Habilidade para conceber e executar campanhas digitais que alcan├ºam o p├║blico de forma impactante.",
+    "Beneficios_2": "An├ílise de Desempenho e Ajustes Estrat├®gicos: Desenvolvimento de habilidades anal├¡ticas para monitorar resultados e ajustar estrat├®gias conforme necess├írio.",
+    "Beneficios_3": "Fortalecimento da Presen├ºa e Competitividade da Marca: Experi├¬ncia pr├ítica em como construir e consolidar uma marca no mercado digital em constante mudan├ºa.",
+    "Ideal_para_1": "Desenvolvimento de habilidades: Ideal para alunos que buscam aprimorar suas habilidades em comunica├º├úo e trabalho em equipe.",
+    "Ideal_para_2": "Criatividade aplicada: Para aqueles com perfil criativo, interessados em design e copywriting.",
+    "Ideal_para_3": "Conhecimento de ferramentas: Perfeito para estudantes que desejam aprender e aplicar os principais softwares da Adobe, como Illustrator e Photoshop.",
+    "Competencia_1": "Cria├º├úo de Conte├║do e Design Gr├ífico: Compet├¬ncia para criar conte├║do visual e textual que ressoe com o p├║blico e fortale├ºa a imagem da marca.",
+    "Competencia_2": "An├ílise de Dados e M├®tricas de Marketing: Habilidade em interpretar dados e ajustar campanhas com base em resultados, maximizando o impacto e o retorno sobre o investimento (ROI).",
+    "Competencia_3": "Gest├úo de M├¡dias Sociais e Comunica├º├úo Digital: Capacidade de planejar e gerenciar conte├║do em plataformas sociais, garantindo o engajamento e a intera├º├úo com o p├║blico."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 8,
+  "fields": {
+    "nome": "Sdr",
+    "logo": "static/images/estacoes/Sdr/logo/sdr_preto.png",
+    "icon": "static/images/estacoes/Sdr/icon/sdr_branco.png",
+    "cor": 3,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de SDR (Sales Development Representative) ├® um espa├ºo dedicado ├á capacita├º├úo de alunos para o desenvolvimento de estrat├®gias de pr├®-venda, focadas em capturar e qualificar leads (potenciais clientes). Nessa esta├º├úo, os alunos aprendem a identificar e analisar consumidores em potencial, preparando-os para se tornarem clientes reais. A esta├º├úo atua em colabora├º├úo com a equipe de Marketing, garantindo que os leads gerados sejam de alta qualidade e prontos para a abordagem da equipe de vendas.",
+    "texto_funcionamento": "Na Esta├º├úo de SDR, os alunos trabalham diretamente com estrat├®gias de identifica├º├úo e qualifica├º├úo de leads, assumindo um papel fundamental na prepara├º├úo dos potenciais clientes para a equipe de vendas. Eles analisam os leads capturados pela Esta├º├úo de Marketing, utilizando uma abordagem personalizada e ativa para resolver as d├║vidas dos consumidores e impulsionar as oportunidades de vendas. A esta├º├úo tamb├®m oferece uma experi├¬ncia completa em pr├®-venda, com os alunos colaborando diretamente com a equipe de vendas para otimizar o processo de fechamento de neg├│cios.",
+    "Servico_1": "Otimiza├º├úo do Marketing para Clientes em Potencial: Acompanhamento dos leads gerados pelo Marketing para garantir uma transi├º├úo suave e qualificada para o setor de vendas.",
+    "Servico_2": "Gera├º├úo de Oportunidades de Neg├│cio e Venda: Identifica├º├úo e cria├º├úo de oportunidades de venda qualificadas para a equipe comercial.",
+    "Servico_3": "Identifica├º├úo e Qualifica├º├úo de Leads: An├ílise dos leads para verificar o potencial de convers├úo, garantindo um pipeline de vendas consistente.",
+    "responsabilidade": "Os alunos na Esta├º├úo de SDR t├¬m como responsabilidades: Liderar a identifica├º├úo e qualifica├º├úo de leads, garantindo que os potenciais clientes atendam aos crit├®rios para o fechamento de neg├│cios. Desenvolver uma abordagem personalizada ao interagir com leads, construindo um relacionamento inicial que facilita a convers├úo em clientes. Colaborar com a equipe de vendas, preparando e acompanhando o processo de transi├º├úo dos leads qualificados. Resolver ativamente problemas e d├║vidas dos consumidores, contribuindo para uma experi├¬ncia positiva e fortalecendo a reputa├º├úo da empresa.",
+    "Beneficios_1": "Efici├¬ncia na Identifica├º├úo de Leads Qualificados: Experi├¬ncia pr├ítica em identificar e qualificar leads com potencial de compra.",
+    "Beneficios_2": "Colabora├º├úo Eficaz e Resolu├º├úo de Problemas: Habilidade de trabalhar em sinergia com a equipe de vendas, oferecendo suporte ativo na prepara├º├úo para o fechamento de neg├│cios.",
+    "Beneficios_3": "Prepara├º├úo Personalizada para Vendas: Desenvolvimento de t├®cnicas de comunica├º├úo e intera├º├úo que maximizam as chances de convers├úo de leads.",
+    "Ideal_para_1": "Desenvolvimento pr├ítico: Para alunos que buscam aprimorar habilidades pr├íticas em gest├úo de vendas e com├®rcio.",
+    "Ideal_para_2": "Aprendizado aplicado: Ideal para quem deseja aplicar conhecimentos em cen├írios reais e do setor comercial.",
+    "Ideal_para_3": "Trabalho em equipe: Focado em estudantes que querem entender o funcionamento de uma equipe comercial.",
+    "Competencia_1": "Identifica├º├úo e Qualifica├º├úo de Leads: Capacidade de avaliar leads e qualific├í-los com base no potencial de compra e interesse.",
+    "Competencia_2": "Habilidades de Comunica├º├úo e Abordagem Personalizada: Compet├¬ncias para construir uma rela├º├úo inicial com leads, garantindo uma experi├¬ncia positiva e maior convers├úo.",
+    "Competencia_3": "Colabora├º├úo com a Equipe de Vendas: Habilidade de trabalhar em equipe para apoiar o processo de vendas, desde a identifica├º├úo de leads at├® a prepara├º├úo para o fechamento."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 9,
+  "fields": {
+    "nome": "Web",
+    "logo": "static/images/estacoes/Web/logo/Logo_Marca_-_Esta├º├úo_de_Pr├íticas_Profissionais_-_WDg.jpg",
+    "icon": "static/images/estacoes/Web/icon/Logo_Marca_-_Esta├º├úo_de_Pr├íticas_Profissionais_-_WDg.jpg",
+    "cor": 3,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Web Design ├® um espa├ºo dedicado ao desenvolvimento de habilidades essenciais para a cria├º├úo e projeto de sites e aplicativos, focando na apar├¬ncia visual e na experi├¬ncia do usu├írio (UX). Aqui, os alunos aprendem a combinar criatividade com funcionalidade, projetando layouts atraentes, responsivos e f├íceis de usar. ├ë um ambiente ideal para quem deseja transformar ideias em interfaces visuais impactantes e funcionais.",
+    "texto_funcionamento": "Na Esta├º├úo de Web Design, os alunos trabalham diretamente com as Esta├º├Áes de Marketing e Desenvolvimento (DEV), sendo uma das primeiras consultadas ap├│s a inicia├º├úo de novos projetos no ENIAC. Eles colaboram em projetos para empresas parceiras e para iniciativas internas, desenvolvendo wireframes e layouts que atendem ├ás necessidades de cada projeto. Esse processo permite aos alunos participar ativamente de todas as fases de cria├º├úo de design, do planejamento ├á execu├º├úo, proporcionando uma vis├úo abrangente das pr├íticas de web design.",
+    "Servico_1": "Cria├º├úo de Layouts para Aplicativos e Sites: Desenvolvimento de interfaces visuais que s├úo atraentes e funcionais para diversos dispositivos.",
+    "Servico_2": "An├ílise e Estrutura├º├úo de Experi├¬ncia do Usu├írio (UX): Cria├º├úo de fluxos e layouts que melhoram a usabilidade e a experi├¬ncia do usu├írio.",
+    "Servico_3": "An├ílise Visagista de Marca: Avalia├º├úo e defini├º├úo da identidade visual da marca, alinhando cores, fontes e estilo visual ao posicionamento desejado.",
+    "responsabilidade": "Os alunos na Esta├º├úo de Web Design t├¬m como responsabilidades: Criar layouts atrativos e funcionais que reflitam a identidade visual da marca e ofere├ºam uma experi├¬ncia de navega├º├úo intuitiva. Garantir a responsividade do design, para que ele funcione adequadamente em diferentes dispositivos e tamanhos de tela. Colaborar com desenvolvedores para assegurar que o design seja tecnicamente vi├ível e otimizado para SEO. Manter o design atualizado, realizar manuten├º├úo e monitorar o desempenho para garantir que o site atenda ├ás expectativas dos usu├írios.",
+    "Beneficios_1": "Experi├¬ncia com Desafios Reais de Design: Viv├¬ncia pr├ítica na cria├º├úo de interfaces e no desenvolvimento de identidade visual para projetos profissionais.",
+    "Beneficios_2": "Aprimoramento das Habilidades com Ferramentas de Design: Desenvolvimento de dom├¡nio sobre as principais ferramentas e t├®cnicas utilizadas no mercado de web design.",
+    "Beneficios_3": "Desenvolvimento de um Olhar Art├¡stico e Cr├¡tico: Capacidade de an├ílise cr├¡tica e sensibilidade est├®tica para criar designs impactantes e funcionais.",
+    "Ideal_para_1": "Criatividade e inova├º├úo: Ideal para pessoas criativas, com um olhar art├¡stico e interesse por tecnologia, que gostam de resolver problemas de forma inovadora.",
+    "Ideal_para_2": "Colabora├º├úo e comunica├º├úo: Perfeito para quem busca aprimorar suas habilidades t├®cnicas e comunicativas em um ambiente colaborativo.",
+    "Ideal_para_3": "Foco em desafios: Voltado para aqueles que t├¬m paix├úo por superar desafios e trazer solu├º├Áes inovadoras.",
+    "Competencia_1": "Design Responsivo e Usabilidade: Habilidade de criar layouts que se adaptem a diferentes dispositivos, proporcionando uma experi├¬ncia uniforme e agrad├ível para o usu├írio.",
+    "Competencia_2": "Identidade Visual e Branding: Compet├¬ncia para desenvolver e manter a identidade visual de marcas, alinhando estilo, cores e fontes com a proposta da empresa.",
+    "Competencia_3": "Colabora├º├úo e Comunica├º├úo T├®cnica: Habilidades de comunica├º├úo e colabora├º├úo com outras ├íreas, como desenvolvimento e marketing, para garantir que o design seja eficaz e implement├ível."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 10,
+  "fields": {
+    "nome": "Pmo",
+    "logo": "static/images/estacoes/Pmo/logo/projetos_preto.png",
+    "icon": "static/images/estacoes/Pmo/icon/projetos_branco.png",
+    "cor": 2,
+    "descricao_estacao": "A Esta├º├úo PMO de Pr├íticas Profissionais funciona como o canal de entrada de projetos do Eniac, permitindo a gest├úo de projetos internos e externos, onde alunos, colaboradores e parceiros podem propor e desenvolver iniciativas. ├ë um espa├ºo que centraliza a entrada de desafios, promove o aprendizado em gest├úo de projetos e conecta estudantes com demandas reais do mercado.",
+    "texto_funcionamento": "Na Esta├º├úo PMO, os projetos s├úo registrados e acompanhados pelo sistema Eniac Link+, garantindo que cada etapa seja monitorada e gerida com efici├¬ncia. Os alunos s├úo respons├íveis por gerenciar a entrada de projetos e desafios, mantendo um contato constante com as outras Esta├º├Áes e com parceiros externos. Esse processo inclui o cadastro de projetos, atualiza├º├úo de planilhas automatizadas e colabora├º├úo ativa com clientes e parceiros para o sucesso dos projetos.",
+    "Servico_1": "Atualiza├º├úo e Automa├º├úo de Planilhas: Ferramentas automatizadas para facilitar a gest├úo e o acompanhamento de projetos.",
+    "Servico_2": "Gest├úo dos Desafios no Link+: Organiza├º├úo e monitoramento dos desafios cadastrados, promovendo intera├º├úo entre alunos e parceiros.",
+    "Servico_3": "Desenvolvimento de Termos de Abertura de Projetos (TAPs): Formaliza├º├úo e detalhamento de projetos, garantindo clareza e alinhamento de objetivos e expectativas.",
+    "responsabilidade": "Os alunos que participam da Esta├º├úo PMO t├¬m a responsabilidade de:\r\nGerenciar e acompanhar os projetos do Eniac, assegurando que sejam entregues dentro dos prazos e com a qualidade exigida.\r\nCumprir metas e objetivos dos projetos respeitando or├ºamentos e otimiza├º├úo de recursos, incluindo m├úo-de-obra e custos financeiros.\r\nColaborar com diferentes equipes, parceiros e clientes, e manter uma comunica├º├úo eficiente em todas as etapas do projeto.",
+    "Beneficios_1": "Participa├º├úo em Projetos Diversificados: Exposi├º├úo a uma variedade de projetos que ampliam a vis├úo pr├ítica dos alunos.",
+    "Beneficios_2": "Desenvolvimento de Habilidades em Gest├úo: A experi├¬ncia pr├ítica em planejamento e execu├º├úo desenvolve habilidades essenciais de lideran├ºa e organiza├º├úo.",
+    "Beneficios_3": "Prepara├º├úo para o Mercado de Trabalho: Os alunos constroem um portf├│lio relevante, aplicando seus conhecimentos em situa├º├Áes reais e se preparando para os desafios da carreira.",
+    "Ideal_para_1": "Experi├¬ncia pr├ítica: Ideal para alunos que desejam vivenciar a gest├úo de projetos de forma pr├ítica.",
+    "Ideal_para_2": "Aplica├º├úo em cen├írios reais: Para quem busca aplicar conhecimento acad├¬mico em situa├º├Áes do dia a dia.",
+    "Ideal_para_3": "Destaque no mercado: Perfeito para estudantes interessados em enriquecer seus curr├¡culos com compet├¬ncias valorizadas.",
+    "Competencia_1": "Gerenciamento de Projetos: Dom├¡nio das etapas de planejamento, execu├º├úo e finaliza├º├úo de projetos.",
+    "Competencia_2": "Gest├úo e Controle de Processos: Habilidade de monitorar e ajustar recursos para assegurar o sucesso de cada projeto.",
+    "Competencia_3": "Avalia├º├úo de Viabilidade T├®cnico-Econ├┤mica: Capacidade de an├ílise cr├¡tica para decidir pela viabilidade de projetos com base em fatores t├®cnicos e econ├┤micos."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 11,
+  "fields": {
+    "nome": "Bpo",
+    "logo": "static/images/estacoes/Bpo/logo/bpo_preto.png",
+    "icon": "static/images/estacoes/Bpo/icon/bpo_branco.png",
+    "cor": 2,
+    "descricao_estacao": "A Esta├º├úo BPO de Pr├íticas Profissionais ├® voltada para a terceiriza├º├úo de processos empresariais essenciais, permitindo que empresas deleguem atividades espec├¡ficas a profissionais qualificados do Eniac. Focada especialmente em processos financeiros, a esta├º├úo abrange ├íreas como contabilidade, processamento de contas a pagar e a receber, concilia├º├úo banc├íria e an├ílise de dados financeiros. Essa pr├ítica prepara os alunos para lidarem com opera├º├Áes de neg├│cios em um ambiente din├ómico e orientado para resultados, capacitando-os para diversas ├íreas do mercado.",
+    "texto_funcionamento": "Na Esta├º├úo BPO, os alunos utilizam ferramentas automatizadas e o sistema Eniac Link+ para gerenciar e realizar processos financeiros e administrativos de forma pr├ítica e eficiente. Eles s├úo respons├íveis por atualizar planilhas, processar contas e realizar concilia├º├Áes banc├írias, sempre com foco em entregar resultados de alta qualidade. A esta├º├úo oferece uma estrutura de trabalho colaborativa onde os alunos interagem com outras Esta├º├Áes de Pr├íticas Profissionais, clientes e parceiros externos, adquirindo habilidades cruciais para o sucesso no setor de BPO.",
+    "Servico_1": "Atualiza├º├úo e Automa├º├úo de Planilhas: Cria├º├úo de planilhas automatizadas para otimizar o controle financeiro e melhorar a produtividade.",
+    "Servico_2": "Gest├úo de Contas a Pagar/Contas a Receber: Processamento e acompanhamento das obriga├º├Áes financeiras para manter a organiza├º├úo e a efici├¬ncia dos fluxos de caixa.",
+    "Servico_3": "An├ílise de Pagamentos: Revis├úo detalhada e an├ílise de dados financeiros para assegurar a conformidade e a otimiza├º├úo dos processos de pagamento.",
+    "responsabilidade": "Os alunos envolvidos na Esta├º├úo BPO t├¬m a responsabilidade de:\r\nAssegurar a entrega pontual e precisa de todas as demandas financeiras e administrativas.\r\nManter uma comunica├º├úo clara e profissional com clientes e parceiros para garantir o alinhamento e a satisfa├º├úo com os servi├ºos prestados.\r\nDemonstrar adaptabilidade, organiza├º├úo e busca cont├¡nua por aprimoramento, contribuindo para um ambiente de alta efici├¬ncia e qualidade.",
+    "Beneficios_1": "An├ílise Financeira Especializada: Experi├¬ncia pr├ítica e aprofundada na an├ílise de pagamentos e gest├úo de contas.",
+    "Beneficios_2": "Automatiza├º├úo e Efici├¬ncia Operacional: Habilidade no uso de planilhas automatizadas para maximizar a produtividade e reduzir erros.",
+    "Beneficios_3": "Prepara├º├úo para o Mercado de Trabalho: Experi├¬ncia em cen├írios reais que aprimoram o curr├¡culo e preparam os alunos para os desafios do setor financeiro e administrativo.",
+    "Ideal_para_1": "Foco em neg├│cios e opera├º├Áes: Ideal para alunos interessados em compreender e atuar em neg├│cios e opera├º├Áes.",
+    "Ideal_para_2": "Desenvolvimento financeiro: Perfeito para quem deseja aprimorar habilidades em processos financeiros.",
+    "Ideal_para_3": "Gest├úo e efici├¬ncia: Voltado para estudantes que buscam melhorar o gerenciamento de tempo e a efici├¬ncia operacional.",
+    "Competencia_1": "Gest├úo Financeira e Cont├íbil: Controle de fluxo de caixa, contas e opera├º├Áes financeiras.",
+    "Competencia_2": "Automatiza├º├úo de Processos: Cria├º├úo e utiliza├º├úo de planilhas automatizadas para otimizar tarefas operacionais.",
+    "Competencia_3": "Organiza├º├úo e Gest├úo do Tempo: Habilidade em priorizar demandas e cumprir prazos com precis├úo e efici├¬ncia."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 12,
+  "fields": {
+    "nome": "RH",
+    "logo": "static/images/estacoes/RH/logo/rh_preto.png",
+    "icon": "static/images/estacoes/RH/icon/rh_branco.png",
+    "cor": 2,
+    "descricao_estacao": "A Esta├º├úo de Pr├íticas Profissionais de Recursos Humanos ├® um ambiente voltado ao desenvolvimento de habilidades cruciais para a gest├úo de pessoas e processos internos. Focada em comunica├º├úo eficaz, organiza├º├úo e transfer├¬ncia precisa de informa├º├Áes, essa esta├º├úo permite que os alunos adquiram experi├¬ncia pr├ítica em atividades fundamentais de RH, como avalia├º├úo de desempenho, gest├úo de documentos e planejamento estrat├®gico. A esta├º├úo ├® ideal para quem deseja atuar em um setor que promove o bem-estar organizacional e ger├¬ncia informa├º├Áes com precis├úo.",
+    "texto_funcionamento": "Na Esta├º├úo RH, os alunos desempenham um papel ativo na equipe de Recursos Humanos, concentrando-se na comunica├º├úo e gest├úo de registros. Eles realizam atividades colaborativas para evitar erros e asseguram que a comunica├º├úo interna seja profissional e direta, o que contribui para um ambiente de trabalho concentrado e organizado. Al├®m disso, os alunos t├¬m a oportunidade de praticar a cria├º├úo de planos de a├º├úo e estrat├®gias de RH, com foco na integra├º├úo e no desenvolvimento dos colaboradores.",
+    "Servico_1": "Avalia├º├úo de Desempenho: Condu├º├úo de avalia├º├Áes e feedbacks que promovem o desenvolvimento e alinhamento com os objetivos organizacionais.",
+    "Servico_2": "Gest├úo de Registro e Documenta├º├úo: Organiza├º├úo e controle de documentos, assegurando acesso r├ípido e seguro a informa├º├Áes vitais para o departamento.",
+    "Servico_3": "Planejamento de Recursos Humanos: Apoio no planejamento de estrat├®gias e pol├¡ticas de RH, auxiliando na efici├¬ncia e na organiza├º├úo do ambiente de trabalho.",
+    "responsabilidade": "Os alunos na Esta├º├úo RH s├úo respons├íveis por:\r\nGerenciar registros e documentos dos colaboradores de forma segura e acess├¡vel.\r\nImplementar controles de entrada e sa├¡da de registros, garantindo a precis├úo e o cumprimento das normas organizacionais.\r\nRelatar todas as atividades ao Departamento de Recursos Humanos, assegurando um fluxo de informa├º├Áes consistente e estruturado.\r\nAuxiliar nos processos de adapta├º├úo e avalia├º├úo de desempenho de novos colaboradores, promovendo a integra├º├úo e a melhoria cont├¡nua.",
+    "Beneficios_1": "Desenvolvimento de Compet├¬ncias Interpessoais: Experi├¬ncia pr├ítica em comunica├º├úo e gest├úo de pessoas, promovendo habilidades de intera├º├úo e empatia.",
+    "Beneficios_2": "Gest├úo Organizada de Documenta├º├úo: Aprendizado em controle e organiza├º├úo documental, crucial para um RH eficiente.",
+    "Beneficios_3": "Alinhamento com Objetivos Organizacionais: Conhecimento pr├ítico sobre como alinhar atividades de RH com as metas estrat├®gicas da organiza├º├úo.",
+    "Ideal_para_1": "Habilidades interpessoais: Ideal para alunos com forte comunica├º├úo, empatia e capacidade colaborativa, essenciais para lidar com quest├Áes pessoais e criar um ambiente harmonioso.",
+    "Ideal_para_2": "Interesse em regulamenta├º├Áes: Para estudantes que desejam explorar regulamenta├º├Áes empresariais e quest├Áes jur├¡dicas relacionadas ao emprego.",
+    "Ideal_para_3": "Ambiente organizacional: Perfeito para quem busca atuar promovendo equil├¡brio e entendimento em ambientes de trabalho.",
+    "Competencia_1": "Comunica├º├úo Eficaz e Emp├ítica: Compet├¬ncia essencial para a intera├º├úo profissional e o desenvolvimento de um ambiente organizacional harmonioso.",
+    "Competencia_2": "Gest├úo Documental e Organizacional: Habilidade em controlar e organizar registros e documentos de forma segura e acess├¡vel.",
+    "Competencia_3": "Planejamento e Estrutura├º├úo de Processos de RH: Pr├ítica em planejar e gerenciar processos fundamentais para o desenvolvimento e alinhamento dos colaboradores com os objetivos organizacionais."
+  }
+},
+{
+  "model": "Core.estacoe",
+  "pk": 13,
+  "fields": {
+    "nome": "Qualidade",
+    "logo": "static/images/estacoes/Qualidade/logo/qualidade_preto.png",
+    "icon": "static/images/estacoes/Qualidade/icon/qualidade_branco.png",
+    "cor": 2,
+    "descricao_estacao": "A Esta├º├úo de Gest├úo da Qualidade de Pr├íticas Profissionais ├® dedicada a garantir a efici├¬ncia e a excel├¬ncia em todas as Esta├º├Áes de Pr├íticas do projeto. Seu principal objetivo ├® implementar uma cultura de qualidade e melhoria cont├¡nua, assegurando que todos os projetos atendam aos padr├Áes mais elevados. A esta├º├úo oferece aos alunos a oportunidade de desenvolver habilidades pr├íticas em gest├úo de qualidade, colaborando com diversas partes interessadas para construir processos organizados e transparentes.",
+    "texto_funcionamento": "Na Esta├º├úo de Gest├úo da Qualidade, os alunos trabalham diretamente na constru├º├úo e monitoramento de projetos, focando em avalia├º├Áes rigorosas e implementa├º├úo de solu├º├Áes para garantir a qualidade em cada etapa. Com um compromisso com a melhoria cont├¡nua, os alunos conduzem auditorias de qualidade, elaboram documentos padronizados e realizam pesquisas para embasar decis├Áes. Trabalhando lado a lado com todas as equipes, os alunos promovem uma cultura de transpar├¬ncia e colaboram para o sucesso e a efici├¬ncia dos projetos.",
+    "Servico_1": "Elabora├º├úo de Documentos Especializados: Cria├º├úo de documentos que detalham cada fase do projeto, assegurando clareza e orienta├º├úo para todas as equipes.",
+    "Servico_2": "Condu├º├úo de Pesquisas e Coleta de Dados: Realiza├º├úo de pesquisas e an├ílises para fornecer informa├º├Áes precisas que fundamentam decis├Áes e direcionam melhorias.",
+    "Servico_3": "Avalia├º├Áes de Qualidade e Auditorias: Monitoramento cont├¡nuo de pr├íticas e processos para garantir a conformidade com os padr├Áes de qualidade estabelecidos.",
+    "responsabilidade": "Os alunos na Esta├º├úo de Gest├úo da Qualidade t├¬m como responsabilidades:\r\nAvaliar processos e pr├íticas para garantir a qualidade e efici├¬ncia em todas as fases do projeto.\r\nConduzir pesquisas detalhadas e fornecer informa├º├Áes atualizadas para orientar as tomadas de decis├úo.\r\nDesenvolver e revisar documentos padronizados, promovendo uma documenta├º├úo abrangente e precisa.\r\nInstruir as equipes sobre as melhores pr├íticas de qualidade, incentivando uma cultura de melhoria cont├¡nua e transpar├¬ncia.",
+    "Beneficios_1": "Documenta├º├úo Abrangente e Padronizada: Experi├¬ncia na cria├º├úo de documentos detalhados que garantem uma base s├│lida e orientadora para os projetos.",
+    "Beneficios_2": "Decis├Áes Embasadas em Dados: Habilidades para realizar pesquisas e an├ílises que proporcionam informa├º├Áes relevantes para a tomada de decis├úo.",
+    "Beneficios_3": "Melhoria Cont├¡nua e Implementa├º├úo de A├º├Áes Corretivas: Pr├ítica em identificar oportunidades de melhoria e implementar a├º├Áes para aprimorar a qualidade dos processos.",
+    "Ideal_para_1": "Gest├úo de qualidade e projetos: Ideal para alunos que buscam aprimorar suas habilidades nessas ├íreas.",
+    "Ideal_para_2": "Aplica├º├úo pr├ítica: Perfeito para quem deseja colocar conhecimentos te├│ricos em pr├ítica em um ambiente real.",
+    "Ideal_para_3": "Mentalidade de melhoria cont├¡nua: Focado em estudantes interessados em efici├¬ncia e transpar├¬ncia no desenvolvimento de projetos.",
+    "Competencia_1": "Desenvolvimento e Otimiza├º├úo de Processos: Capacidade de criar e melhorar processos para maximizar a efici├¬ncia e a qualidade dos projetos.",
+    "Competencia_2": "Implementa├º├úo de A├º├Áes Corretivas: Habilidade em identificar e resolver problemas de qualidade de forma proativa.",
+    "Competencia_3": "Gest├úo de Riscos e Conformidade: Compet├¬ncias para avaliar e mitigar riscos, garantindo que os projetos cumpram com os padr├Áes de qualidade exigidos."
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 6,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": 7,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": 8,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 6,
+  "fields": {
+    "user": 9,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 7,
+  "fields": {
+    "user": 10,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 8,
+  "fields": {
+    "user": 11,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 9,
+  "fields": {
+    "user": 12,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 10,
+  "fields": {
+    "user": 13,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 11,
+  "fields": {
+    "user": 14,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 12,
+  "fields": {
+    "user": 15,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Core.userprofile",
+  "pk": 13,
+  "fields": {
+    "user": 16,
+    "avatar": "images/global/perfil/default_avatar.png",
+    "ebook_completion_percentage": 0,
+    "area": null,
+    "two_factor_code": null,
+    "two_factor_expiry": null,
+    "pending_pmo": false
+  }
+},
+{
+  "model": "Dashboard.projeto",
+  "pk": 2135465,
+  "fields": {
+    "estacao_projeto": 1,
+    "nome_projeto": "Caneta",
+    "numero_desafio": 4654,
+    "Proprietario": "adfdasfasf",
+    "gestor": 1,
+    "start_date": "2024-11-23",
+    "fase": "Concluido",
+    "end_date": "2024-11-23",
+    "status": "Atrasado",
+    "Progresso": 70,
+    "integrantes": [
+      1
+    ]
+  }
+},
+{
+  "model": "Dashboard.projeto",
+  "pk": 4821879997,
+  "fields": {
+    "estacao_projeto": 3,
+    "nome_projeto": "123",
+    "numero_desafio": 121212,
+    "Proprietario": "123",
+    "gestor": 13,
+    "start_date": "1212-12-12",
+    "fase": "Andamento",
+    "end_date": "1212-12-12",
+    "status": "Em_andamento",
+    "Progresso": 0,
+    "integrantes": []
+  }
+},
+{
+  "model": "Dashboard.projeto",
+  "pk": 8077158538,
+  "fields": {
+    "estacao_projeto": 3,
+    "nome_projeto": "Projeto teste",
+    "numero_desafio": 123456,
+    "Proprietario": "Allan",
+    "gestor": 13,
+    "start_date": "2025-07-16",
+    "fase": "Andamento",
+    "end_date": "2025-08-08",
+    "status": "Em_andamento",
+    "Progresso": 50,
+    "integrantes": []
+  }
+},
+{
+  "model": "Dashboard.projeto",
+  "pk": 213123123123123123,
+  "fields": {
+    "estacao_projeto": 1,
+    "nome_projeto": "Garrafa",
+    "numero_desafio": 132456,
+    "Proprietario": "Giovani Dantas Braconi",
+    "gestor": 1,
+    "start_date": "2024-11-27",
+    "fase": "Andamento",
+    "end_date": "2024-11-27",
+    "status": "Em_andamento",
+    "Progresso": 0,
+    "integrantes": [
+      1
+    ]
+  }
+},
+{
+  "model": "Dashboard.ebook",
+  "pk": 1,
+  "fields": {
+    "titulo": "Front End",
+    "descricao": ""
+  }
+},
+{
+  "model": "Dashboard.ebook",
+  "pk": 2,
+  "fields": {
+    "titulo": "Back-end",
+    "descricao": "kokijiij"
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 1,
+  "fields": {
+    "ebook": 1,
+    "titulo": "Html",
+    "conteudo": "hhh",
+    "ordem": 1
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 2,
+  "fields": {
+    "ebook": 1,
+    "titulo": "CSS",
+    "conteudo": "ccc",
+    "ordem": 2
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 3,
+  "fields": {
+    "ebook": 1,
+    "titulo": "JS",
+    "conteudo": "jj",
+    "ordem": 3
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 4,
+  "fields": {
+    "ebook": 2,
+    "titulo": "Java",
+    "conteudo": "System.out.printnln(\"ewffsad\")",
+    "ordem": 1
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 5,
+  "fields": {
+    "ebook": 2,
+    "titulo": "POO",
+    "conteudo": "dfsfsad",
+    "ordem": 2
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 6,
+  "fields": {
+    "ebook": 2,
+    "titulo": "C",
+    "conteudo": "cdsf",
+    "ordem": 4
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 7,
+  "fields": {
+    "ebook": 2,
+    "titulo": "C#",
+    "conteudo": "dsffsffsd",
+    "ordem": 5
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 8,
+  "fields": {
+    "ebook": 2,
+    "titulo": "C++",
+    "conteudo": "dsf",
+    "ordem": 6
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 9,
+  "fields": {
+    "ebook": 2,
+    "titulo": ".NET",
+    "conteudo": "dsf",
+    "ordem": 7
+  }
+},
+{
+  "model": "Dashboard.capitulo",
+  "pk": 10,
+  "fields": {
+    "ebook": 2,
+    "titulo": "Spring",
+    "conteudo": "",
+    "ordem": 3
+  }
+},
+{
+  "model": "Dashboard.subcapitulo",
+  "pk": 1,
+  "fields": {
+    "capitulo": 1,
+    "titulo": "<a>",
+    "tipo": "texto",
+    "conteudo": "",
+    "arquivo": "",
+    "url_video": null,
+    "ordem": 1
+  }
+},
+{
+  "model": "Dashboard.subcapitulo",
+  "pk": 2,
+  "fields": {
+    "capitulo": 2,
+    "titulo": "css sc",
+    "tipo": "pdf",
+    "conteudo": "sdfsdfdsaf",
+    "arquivo": "subcapitulos/Essential_Grammar_in_Use_4th_Edition_Ini.pdf",
+    "url_video": "https://www.youtube.com/watch?v=BOTIIw76qiE&list=RDBOTIIw76qiE&start_radio=1&pp=ygUWYmxhY2sgc2FiYmF0aCBwYXJhbm9pZKAHAQ%3D%3D",
+    "ordem": 2
+  }
+},
+{
+  "model": "Dashboard.subcapitulo",
+  "pk": 3,
+  "fields": {
+    "capitulo": 3,
+    "titulo": "video.mp4",
+    "tipo": "video",
+    "conteudo": "dsjflijfidsjlkfdsajlkdsffj",
+    "arquivo": "",
+    "url_video": "https://www.youtube.com/watch?v=0t7Gst0JGns",
+    "ordem": 0
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 1,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 1,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:14:51.293Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 2,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 2,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:43:29.115Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 3,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 3,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:14:50.732Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 4,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 4,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:17:16.434Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 5,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 5,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:17:17.988Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 6,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 10,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:17:18.395Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuarioebook",
+  "pk": 7,
+  "fields": {
+    "aluno": 14,
+    "capitulo": 8,
+    "concluido": true,
+    "data_conclusao": "2025-07-18T18:02:58.228Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuariosubcapitulo",
+  "pk": 1,
+  "fields": {
+    "aluno": 14,
+    "subcapitulo": 1,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:41:36.311Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuariosubcapitulo",
+  "pk": 2,
+  "fields": {
+    "aluno": 14,
+    "subcapitulo": 2,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:43:35.129Z"
+  }
+},
+{
+  "model": "Dashboard.progressousuariosubcapitulo",
+  "pk": 3,
+  "fields": {
+    "aluno": 14,
+    "subcapitulo": 3,
+    "concluido": true,
+    "data_conclusao": "2025-07-11T14:41:52.445Z"
+  }
+},
+{
+  "model": "Dashboard.forum",
+  "pk": 1,
+  "fields": {
+    "ebook": 1,
+    "titulo": "F├│rum sobre Front End"
+  }
+},
+{
+  "model": "Dashboard.forum",
+  "pk": 2,
+  "fields": {
+    "ebook": 2,
+    "titulo": "F├│rum sobre Back-end"
+  }
+},
+{
+  "model": "Dashboard.topico",
+  "pk": 1,
+  "fields": {
+    "forum": 2,
+    "titulo": "Teste",
+    "conteudo": "ASAsas",
+    "autor": 12,
+    "criado_em": "2025-07-14T00:19:48.120Z",
+    "atualizado_em": "2025-07-14T00:19:48.120Z"
+  }
+},
+{
+  "model": "Dashboard.resposta",
+  "pk": 1,
+  "fields": {
+    "topico": 1,
+    "conteudo": "Viado",
+    "autor": 12,
+    "criado_em": "2025-07-14T00:23:47.593Z"
+  }
+},
+{
+  "model": "Dashboard.resposta",
+  "pk": 2,
+  "fields": {
+    "topico": 1,
+    "conteudo": "opa",
+    "autor": 10,
+    "criado_em": "2025-07-14T17:57:15.033Z"
+  }
+},
+{
+  "model": "Dashboard.kanban",
+  "pk": 1,
+  "fields": {
+    "projeto": 4821879997,
+    "nome": "Kanban do Projeto"
+  }
+},
+{
+  "model": "Dashboard.kanbancolumn",
+  "pk": 1,
+  "fields": {
+    "kanban": 1,
+    "nome": "Pendente",
+    "ordem": 1
+  }
+},
+{
+  "model": "Dashboard.kanbancolumn",
+  "pk": 2,
+  "fields": {
+    "kanban": 1,
+    "nome": "Analisando",
+    "ordem": 2
+  }
+},
+{
+  "model": "Dashboard.kanbancolumn",
+  "pk": 3,
+  "fields": {
+    "kanban": 1,
+    "nome": "Em Progresso",
+    "ordem": 3
+  }
+},
+{
+  "model": "Dashboard.kanbancolumn",
+  "pk": 4,
+  "fields": {
+    "kanban": 1,
+    "nome": "Testes",
+    "ordem": 4
+  }
+},
+{
+  "model": "Dashboard.kanbancolumn",
+  "pk": 5,
+  "fields": {
+    "kanban": 1,
+    "nome": "Finalizado",
+    "ordem": 5
+  }
+},
+{
+  "model": "Dashboard.kanbancard",
+  "pk": 7,
+  "fields": {
+    "coluna": 1,
+    "titulo": "Nova tarefa",
+    "descricao": "",
+    "prioridade": "low",
+    "criado_em": "2025-07-17T14:51:54.412Z",
+    "atualizado_em": "2025-07-17T14:51:54.412Z"
+  }
+}
+]
